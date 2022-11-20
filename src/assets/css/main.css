@@ -1,0 +1,110 @@
+.hero-section {
+  background-image: url("../img/herobg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px;
+  height: 80vh;
+}
+
+.hero-title {
+  font-size: 60px;
+}
+
+.search-preference-section {
+  background-image: url("../img/search.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.search-select {
+  height: 40px !important;
+  border: 1px solid #355df3;
+  border-radius: 50px !important;
+  font-weight: 600;
+  margin-top: -11px;
+}
+
+.search-btn {
+  height: 40px !important;
+  background-image: linear-gradient(
+    to right,
+    #172e84,
+    #172e84,
+    #172e84,
+    #ffffff
+  );
+  border: 1px solid #355df3;
+  border-radius: 50px !important;
+  font-weight: 600;
+  margin-top: -11px;
+}
+
+.recent-jobs-section {
+  background-image: url("../img/jobboard.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.featured-companies-section {
+  background-color: #ffffff;
+}
+
+.testinomial-section {
+  background-image: url("../img/testimonials.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.blog-section {
+  background-image: url("../img/blogs.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.contact-form-section {
+  background-image: url("../img/contact.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.input-box {
+  height: 60px !important;
+  max-height: 70px !important;
+  border: 3px solid #355df3;
+  border-radius: 50px !important;
+  font-weight: 600;
+}
+
+.submit-btn {
+  width: 80% !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-auth {
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  background-color: #e4eaff;
+  font-weight: 500;
+}
+
+.footer {
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.signup-bg {
+  min-height: 100vh;
+  background-image: url("../img/sign-up.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.profile-step {
+  min-height: 100vh;
+  background-image: url("../img/profile-steps.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
