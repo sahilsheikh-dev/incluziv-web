@@ -7,7 +7,7 @@
         Building belonging through diversity, equity and and inclusion. Join Us.
       </p>
       <a
-        href="#/register"
+        href="#/candidateSignin"
         class="btn text-light p-3 px-5"
         style="background-color: #f33164; border-radius: 0 !important;"
         >SIGN UP NOW</a

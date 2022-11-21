@@ -56,11 +56,11 @@
         <div class="col-md-3 col-lg-3 col-xl-3 text-start">
           <h4 class="fw-bold">Quick Links</h4>
           <a class="text-decoration-none text-dark" href="#/">Home</a> <br />
-          <a class="text-decoration-none text-dark" href="#/jobseakers"
+          <a class="text-decoration-none text-dark" href="#/jobSearch"
             >Job Seakers</a
           >
           <br />
-          <a class="text-decoration-none text-dark" href="#/employers"
+          <a class="text-decoration-none text-dark" href="#/recruiterSignup"
             >Employers</a
           >
           <br />

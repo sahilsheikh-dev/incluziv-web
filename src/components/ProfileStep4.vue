@@ -11,11 +11,11 @@
             class="mb-4 px-3 input-border-pink"
             style="width: 300px; height: 30px;"
           >
-            <option value="" class="" disabled selected>4 Years</option>
-            <option value="2">2</option>
-            <option value="4">4</option>
-            <option value="6">6</option>
-            <option value="10+">10+</option>
+            <option value="" class="" disabled selected>4+ Years</option>
+            <option value="2+ Years">2+ Years</option>
+            <option value="4+ Years">4+ Years</option>
+            <option value="6+ Years">6+ Years</option>
+            <option value="10+ Years">10+ Years</option>
           </select>
 
           <div class="row">
@@ -59,7 +59,7 @@
           <div class="row">
             <div class="col">
               <p class="mb-1 fw-bold">
-                Mention upto three industries you associated with
+                Mention upto 3 industries you associated with
               </p>
               <input
                 type="text"
@@ -72,23 +72,24 @@
           </div>
 
           <div class="row">
+            <p class="mb-0 mt-2 fw-bold">
+              What is your education background?
+            </p>
             <div class="col-4">
-              <p class="fw-bold mb-2">Current Employment</p>
               <select
                 class="px-3 input-border-pink"
                 style="width: 100%; height: 30px;"
               >
                 <option value="" class="" disabled selected
-                  >Select course</option
+                  >Select Course</option
                 >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Electronics">Electronics</option>
               </select>
             </div>
             <div class="col-4">
-              <p class="fw-bold mb-2">Current Employment</p>
               <select
                 class="px-3 input-border-pink"
                 style="width: 100%; height: 30px;"
@@ -96,14 +97,13 @@
                 <option value="" class="" disabled selected
                   >Specialization</option
                 >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Electronics">Electronics</option>
               </select>
             </div>
             <div class="col-4">
-              <p class="fw-bold mb-2">Current Employment</p>
               <select
                 class="px-3 input-border-pink"
                 style="width: 100%; height: 30px;"
@@ -111,10 +111,10 @@
                 <option value="" class="" disabled selected
                   >Completion year</option
                 >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                <option value="1 Year">1 Year</option>
+                <option value="2 Year">2 Year</option>
+                <option value="3 Year">3 Year</option>
+                <option value="4 Year">4 Year</option>
               </select>
             </div>
           </div>
@@ -128,10 +128,10 @@
                 <option value="" class="" disabled selected
                   >College Name</option
                 >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                <option value="IIT">IIT</option>
+                <option value="IIIT">IIIT</option>
+                <option value="NIT">NIT</option>
+                <option value="BITS">BITS</option>
               </select>
             </div>
             <div class="col-4">
@@ -142,10 +142,8 @@
                 <option value="" class="" disabled selected
                   >Full/Part Time</option
                 >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                <option value="Full Time">Full Time</option>
+                <option value="Part Time">Part Time</option>
               </select>
             </div>
           </div>

@@ -1,12 +1,16 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Homepage from "@/components/Homepage";
-import Login from "@/components/Login";
-import Register from "@/components/Register";
+import CandidateSignin from "@/components/CandidateSignin";
+import RecruiterSignup from "@/components/RecruiterSignup";
 import ProfileStep1 from "@/components/ProfileStep1";
 import ProfileStep2 from "@/components/ProfileStep2";
 import ProfileStep3 from "@/components/ProfileStep3";
 import ProfileStep4 from "@/components/ProfileStep4";
+import JobSearch from "@/components/JobSearch";
+import JobActivities from "@/components/JobActivities";
+import Inbox from "@/components/Inbox";
+import Profile from "@/components/Profile";
 
 Vue.use(Router);
 
@@ -14,18 +18,18 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "HelloHomepageWorld",
+      name: "Homepage",
       component: Homepage
     },
     {
-      path: "/login",
-      name: "Login",
-      component: Login
+      path: "/candidateSignin",
+      name: "CandidateSignin",
+      component: CandidateSignin
     },
     {
-      path: "/register",
-      name: "Register",
-      component: Register
+      path: "/recruiterSignup",
+      name: "RecruiterSignup",
+      component: RecruiterSignup
     },
     {
       path: "/profilestep1",
@@ -46,6 +50,26 @@ export default new Router({
       path: "/profilestep4",
       name: "Profile Step 4",
       component: ProfileStep4
+    },
+    {
+      path: "/jobSearch",
+      name: "JobSearch",
+      component: JobSearch
+    },
+    {
+      path: "/jobActivities",
+      name: "JobActivities",
+      component: JobActivities
+    },
+    {
+      path: "/inbox",
+      name: "Inbox",
+      component: Inbox
+    },
+    {
+      path: "/profile",
+      name: "Profile",
+      component: Profile
     }
   ]
 });

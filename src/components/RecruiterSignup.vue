@@ -93,7 +93,7 @@
           <button
             type="submit"
             class="form-control p-2 px-5 input-box mt-5 mb-3 text-light bg-primary submit-btn"
-            id="loginsubmit"
+            id="recruitersignup"
             style="max-width: 350px;"
           >
             REGISTER
@@ -106,7 +106,7 @@
 
 <script>
 export default {
-  name: "Login",
+  name: "RecruiterSignup",
   data() {
     return {
       msg: "This is Registration Page"

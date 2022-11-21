@@ -76,7 +76,7 @@
           <a
             type="submit"
             class="form-control p-2 px-5 pt-3 input-box mb-3 text-light bg-primary submit-btn text-decoration-none"
-            href="#/register"
+            href="#/recruiterSignup"
           >
             RECRUITER SIGNUP
           </a>

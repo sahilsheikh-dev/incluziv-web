@@ -53,8 +53,9 @@
               <option>Others</option></select
             ><br /><br />
           </div>
-          <div class="row d-flex text-center">
-            <div class="col-4 col-md-2 col-lg-2 col-xl-2">
+          <div class="row d-flex text-center mt-1">
+            <p class="text-start fw-bold mb-0">Please select your diversity.</p>
+            <div class="col-4 col-md-2 col-lg-2 col-xl-2 mt-0">
               <img
                 class="img img-thumbnail border border-radius border-dark rounded"
                 src="../assets/logo.png"

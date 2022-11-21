@@ -108,3 +108,29 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+.jobsearch {
+  min-height: 100vh;
+  background-image: url("../img/profile-steps.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.jobsearch-section {
+  min-height: 100vh;
+}
+
+.job-search-side-card {
+  background: #ffffff;
+}
+
+.profile {
+  min-height: 100vh;
+  /* background-image: url("../img/profile-steps.png"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.profile-section {
+  min-height: 100vh;
+}

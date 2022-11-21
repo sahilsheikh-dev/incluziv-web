@@ -38,7 +38,7 @@
             <button
               type="submit"
               class="form-control p-2 px-5 text-light search-btn"
-              id="loginsubmit"
+              id="jobsearch"
             >
               Search
             </button>
@@ -77,7 +77,7 @@
           <button
             type="submit"
             class="form-control p-2 px-5 text-light search-btn"
-            id="loginsubmit"
+            id="jobsearch"
           >
             Search
           </button>

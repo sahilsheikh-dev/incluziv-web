@@ -27,24 +27,26 @@
             <a class="nav-link active mx-3" href="#/inbox">Inbox</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active mx-3" href="#/jobseakers">Job Seakers</a>
+            <a class="nav-link active mx-3" href="#/jobSearch">Job Seakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active mx-3" href="#/employers">Employers</a>
+            <a class="nav-link active mx-3" href="#/recruiterSignup"
+              >Employers</a
+            >
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link active mx-3" href="#/community">Community</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active mx-3" href="#/upskills">Up Skills</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link active mx-3" href="#/profile">Profile</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link active mx-3 btn text-light px-3"
-              href="#/login"
+              href="#/candidateSignin"
               style="background-color: #f33164; border-radius: 0;"
               >SIGN IN/SIGN UP</a
             >
