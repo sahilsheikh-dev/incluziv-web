@@ -90,7 +90,7 @@
         >
           <img
             class="image-thumbnail w-50"
-            src="../../assets/logo.png"
+            src="../../assets/img/diversity-1.png"
             alt="logo"
           />
           <p class="my-2 text-primary" style="font-size: 14px;">FEMALE</p>
@@ -98,7 +98,7 @@
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
             class="image-thumbnail w-50"
-            src="../../assets/logo.png"
+            src="../../assets/img/diversity-2.png"
             alt="logo"
           />
           <p class="my-2 text-primary" style="font-size: 14px;">QUEER</p>
@@ -106,7 +106,7 @@
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
             class="image-thumbnail w-50"
-            src="../../assets/logo.png"
+            src="../../assets/img/diversity-3.png"
             alt="logo"
           />
           <p class="my-2 text-primary" style="font-size: 14px;">ABLE</p>
@@ -114,7 +114,7 @@
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
             class="image-thumbnail w-50"
-            src="../../assets/logo.png"
+            src="../../assets/img/diversity-4.png"
             alt="logo"
           />
           <p class="my-2 text-primary" style="font-size: 14px;">VETERAN</p>
@@ -122,7 +122,7 @@
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
             class="image-thumbnail w-50"
-            src="../../assets/logo.png"
+            src="../../assets/img/diversity-5.png"
             alt="logo"
           />
           <p class="my-2 text-primary" style="font-size: 14px;">SILVERGEN</p>

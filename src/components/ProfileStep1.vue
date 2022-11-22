@@ -58,7 +58,7 @@
             <div class="col-4 col-md-2 col-lg-2 col-xl-2 mt-0">
               <img
                 class="img img-thumbnail border border-radius border-dark rounded"
-                src="../assets/logo.png"
+                src="../assets/img/diversity-1.png"
               />
               <p
                 style="font-size: 14px; font-weight: 600;"
@@ -70,7 +70,7 @@
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
                 class="img img-thumbnail border border-radius border-dark rounded"
-                src="../assets/logo.png"
+                src="../assets/img/diversity-2.png"
               />
               <p
                 style="font-size: 14px; font-weight: 600;"
@@ -82,7 +82,7 @@
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
                 class="img img-thumbnail border border-radius border-dark rounded"
-                src="../assets/logo.png"
+                src="../assets/img/diversity-3.png"
               />
               <p
                 style="font-size: 14px; font-weight: 600;"
@@ -94,7 +94,7 @@
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
                 class="img img-thumbnail border border-radius border-dark rounded"
-                src="../assets/logo.png"
+                src="../assets/img/diversity-4.png"
               />
               <p
                 style="font-size: 14px; font-weight: 600;"
@@ -106,7 +106,7 @@
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
                 class="img img-thumbnail border border-radius border-dark rounded"
-                src="../assets/logo.png"
+                src="../assets/img/diversity-5.png"
               />
               <p
                 style="font-size: 14px; font-weight: 600;"

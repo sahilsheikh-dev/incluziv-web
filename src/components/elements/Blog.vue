@@ -9,7 +9,7 @@
         <div class="col-md-4 col-lg-4 col-xl-4">
           <img
             class="shadow-lg image-thumbnail w-100"
-            src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="../../assets/img/blog1.png"
             alt="logo"
           />
           <div class="mt-4 p-2">
@@ -28,7 +28,7 @@
         <div class="col-md-4 col-lg-4 col-xl-4">
           <img
             class="shadow-lg image-thumbnail w-100"
-            src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="../../assets/img/blog2.png"
             alt="logo"
           />
           <div class="mt-4 p-2">
@@ -47,7 +47,7 @@
         <div class="col-md-4 col-lg-4 col-xl-4">
           <img
             class="shadow-lg image-thumbnail w-100"
-            src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="../../assets/img/blog3.png"
             alt="logo"
           />
           <div class="mt-4 p-2">

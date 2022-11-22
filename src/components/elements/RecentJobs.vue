@@ -13,7 +13,7 @@
           >
             <img
               class="image-thumbnail w-25 mb-3"
-              src="../../assets/logo.png"
+              src="../../assets/img/google.png"
               alt="logo"
             />
             <h6 class="fw-bold">Frontend React JS Developer</h6>
@@ -38,7 +38,7 @@
           >
             <img
               class="image-thumbnail w-25 mb-3"
-              src="../../assets/logo.png"
+              src="../../assets/img/google.png"
               alt="logo"
             />
             <h6 class="fw-bold">Frontend React JS Developer</h6>
@@ -63,7 +63,7 @@
           >
             <img
               class="image-thumbnail w-25 mb-3"
-              src="../../assets/logo.png"
+              src="../../assets/img/google.png"
               alt="logo"
             />
             <h6 class="fw-bold">Frontend React JS Developer</h6>
@@ -88,7 +88,7 @@
           >
             <img
               class="image-thumbnail w-25 mb-3"
-              src="../../assets/logo.png"
+              src="../../assets/img/google.png"
               alt="logo"
             />
             <h6 class="fw-bold">Frontend React JS Developer</h6>
@@ -113,7 +113,7 @@
           >
             <img
               class="image-thumbnail w-25 mb-3"
-              src="../../assets/logo.png"
+              src="../../assets/img/google.png"
               alt="logo"
             />
             <h6 class="fw-bold">Frontend React JS Developer</h6>
@@ -138,7 +138,7 @@
           >
             <img
               class="image-thumbnail w-25 mb-3"
-              src="../../assets/logo.png"
+              src="../../assets/img/google.png"
               alt="logo"
             />
             <h6 class="fw-bold">Frontend React JS Developer</h6>

@@ -126,8 +126,8 @@
 
 .profile {
   min-height: 100vh;
-  /* background-image: url("../img/profile-steps.png"); */
-  background-repeat: no-repeat;
+  background-image: url("../img/profile-bg.png");
+  background-repeat: repeat-y;
   background-size: 100%;
 }
 

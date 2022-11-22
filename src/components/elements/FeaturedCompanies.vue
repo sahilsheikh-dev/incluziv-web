@@ -4,39 +4,47 @@
       <h1 class="text-dark fw-bold mt-0 mb-5">Featured Companies</h1>
       <div class="row my-3">
         <div
-          class="col-6 col-md-2 col-lg-2 col-xl-2 offset-md-1 offset-lg-1 offset-xl-1"
+          class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center offset-md-1 offset-lg-1 offset-xl-1"
         >
           <img
-            class=" image-thumbnail w-50"
-            src="../../assets/logo.png"
+            class=" img-fluid mx-auto w-50"
+            src="../../assets/img/dell.png"
             alt="logo"
           />
         </div>
-        <div class="col-6 col-md-2 col-lg-2 col-xl-2">
+        <div
+          class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            class=" image-thumbnail w-50"
-            src="../../assets/logo.png"
+            class=" img-fluid mx-auto w-50"
+            src="../../assets/img/tcs.png"
             alt="logo"
           />
         </div>
-        <div class="col-6 col-md-2 col-lg-2 col-xl-2">
+        <div
+          class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            class=" image-thumbnail w-50"
-            src="../../assets/logo.png"
+            class=" img-fluid mx-auto w-50"
+            src="../../assets/img/infosys.png"
             alt="logo"
           />
         </div>
-        <div class="col-6 col-md-2 col-lg-2 col-xl-2">
+        <div
+          class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            class=" image-thumbnail w-50"
-            src="../../assets/logo.png"
+            class=" img-fluid mx-auto w-50"
+            src="../../assets/img/google.png"
             alt="logo"
           />
         </div>
-        <div class="col-6 col-md-2 col-lg-2 col-xl-2">
+        <div
+          class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            class=" image-thumbnail w-50"
-            src="../../assets/logo.png"
+            class=" img-fluid mx-auto w-50"
+            src="../../assets/img/paytm.png"
             alt="logo"
           />
         </div>

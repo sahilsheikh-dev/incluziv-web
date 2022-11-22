@@ -158,7 +158,7 @@
               <div class="col-3 d-flex align-items-center">
                 <img
                   class="img-fluid w-75"
-                  src="../assets/logo.png"
+                  src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
@@ -186,7 +186,7 @@
               <div class="col-3 d-flex align-items-center">
                 <img
                   class="img-fluid w-75"
-                  src="../assets/logo.png"
+                  src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
@@ -214,7 +214,7 @@
               <div class="col-3 d-flex align-items-center">
                 <img
                   class="img-fluid w-75"
-                  src="../assets/logo.png"
+                  src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
@@ -242,7 +242,7 @@
               <div class="col-3 d-flex align-items-center">
                 <img
                   class="img-fluid w-75"
-                  src="../assets/logo.png"
+                  src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
@@ -270,7 +270,7 @@
               <div class="col-3 d-flex align-items-center">
                 <img
                   class="img-fluid w-75"
-                  src="../assets/logo.png"
+                  src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
