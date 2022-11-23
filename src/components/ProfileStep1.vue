@@ -57,7 +57,7 @@
             <p class="text-start fw-bold mb-0">Please select your diversity.</p>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2 mt-0">
               <img
-                class="img img-thumbnail border border-radius border-dark rounded"
+                class="img img-thumbnail border border-radius rounded"
                 src="../assets/img/diversity-1.png"
               />
               <p
@@ -69,7 +69,7 @@
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
-                class="img img-thumbnail border border-radius border-dark rounded"
+                class="img img-thumbnail border border-radius rounded"
                 src="../assets/img/diversity-2.png"
               />
               <p
@@ -81,7 +81,7 @@
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
-                class="img img-thumbnail border border-radius border-dark rounded"
+                class="img img-thumbnail border border-radius rounded"
                 src="../assets/img/diversity-3.png"
               />
               <p
@@ -93,7 +93,7 @@
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
-                class="img img-thumbnail border border-radius border-dark rounded"
+                class="img img-thumbnail border border-radius rounded"
                 src="../assets/img/diversity-4.png"
               />
               <p
@@ -105,7 +105,7 @@
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
               <img
-                class="img img-thumbnail border border-radius border-dark rounded"
+                class="img img-thumbnail border border-radius rounded"
                 src="../assets/img/diversity-5.png"
               />
               <p
