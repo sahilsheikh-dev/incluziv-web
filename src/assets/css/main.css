@@ -1,7 +1,8 @@
 .hero-section {
   background-image: url("../img/herobg.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   padding: 50px;
   height: 80vh;
 }
@@ -13,7 +14,8 @@
 .search-preference-section {
   background-image: url("../img/search.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .search-select {
@@ -42,7 +44,8 @@
 .recent-jobs-section {
   background-image: url("../img/jobboard.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .featured-companies-section {
@@ -52,19 +55,37 @@
 .testinomial-section {
   background-image: url("../img/testimonials.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.testimonial-image-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.testinomial-image {
+  border: 1px solid #e4eaff;
+  transition: transform 0.1s;
+}
+
+.testinomial-image:hover {
+  transform: scale(1.05);
 }
 
 .blog-section {
   background-image: url("../img/blogs.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact-form-section {
   background-image: url("../img/contact.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .input-box {
@@ -92,28 +113,33 @@
 .footer {
   background-image: url("../img/footer.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
 }
 
 .signup-bg {
   min-height: 100vh;
   background-image: url("../img/sign-up.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .profile-step {
   min-height: 100vh;
   background-image: url("../img/profile-steps.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .jobsearch {
   min-height: 100vh;
   background-image: url("../img/profile-steps.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .jobsearch-section {
@@ -146,4 +172,45 @@ input:focus {
 
 .dropdown-item:active {
   background-color: rgb(237, 62, 97);
+}
+
+.footer-link {
+  line-height: 40px;
+}
+
+.btn-hover-pink:hover {
+  color: rgb(237, 62, 97) !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgb(237, 62, 97);
+}
+
+.btn-hover-white:hover {
+  color: #000000 !important;
+  background-color: #e4eaff !important;
+  border: 1px solid #000000 !important;
+}
+
+.btn-hover-blue:hover {
+  color: #355df3 !important;
+  background-color: #e4eaff !important;
+  border: 1px solid #355df3 !important;
+}
+
+.btn-hover-yellow:hover {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ffc107 !important;
+}
+
+.select-height-45 {
+  height: 43px;
+}
+
+@media (max-width: 584px) {
+  .hero-title {
+    font-size: 36px;
+  }
+  .input-box {
+    height: 45px !important;
+  }
 }

@@ -40,19 +40,19 @@
             Agree & Continue
           </button> -->
           <a
-            class="form-control p-2 px-5 pt-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none"
+            class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
             id="loginsubmit"
             href="#/profilestep1"
           >
             Agree & Continue
           </a>
         </form>
-        <h6 class="my-5 fw-bold">OR</h6>
+        <h6 class="my-4 fw-bold">OR</h6>
         <div class="row mx-auto" style="max-width: 700px;">
           <div class="col-md-6 col-lg-6 col-xl-6">
             <button
               type="submit"
-              class="form-control p-2 px-2 input-box mb-3 submit-btn social-auth"
+              class="form-control p-2 px-2 input-box mb-0 submit-btn social-auth btn-hover-blue"
               id="loginsubmit"
               style="color: #516acb;"
             >
@@ -63,7 +63,7 @@
           <div class="col-md-6 col-lg-6 col-xl-6">
             <button
               type="submit"
-              class="form-control p-2 px-2 input-box mb-3 submit-btn social-auth"
+              class="form-control p-2 px-2 input-box mb-0 submit-btn social-auth btn-hover-blue"
               id="loginsubmit"
               style="color: #516acb;"
             >
@@ -75,7 +75,7 @@
         <div class="mt-5 mx-auto" style="max-width: 400px;">
           <a
             type="submit"
-            class="form-control p-2 px-5 pt-3 input-box mb-3 text-light bg-primary submit-btn text-decoration-none"
+            class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-0 text-light bg-primary submit-btn text-decoration-none btn-hover-blue"
             href="#/recruiterSignup"
           >
             RECRUITER SIGNUP

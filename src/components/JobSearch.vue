@@ -44,7 +44,7 @@
                           Diversity
                         </h6>
                         <select
-                          class="input-border-pink px-3 w-100"
+                          class="input-border-pink px-3 w-100 py-2 select-height-45"
                           name="diversity"
                           id="diversity"
                         >
@@ -61,7 +61,7 @@
                           Indusries
                         </h6>
                         <select
-                          class="input-border-pink px-3 w-100"
+                          class="input-border-pink px-3 w-100 py-2 select-height-45"
                           name="indusrty"
                           id="indusrty"
                         >
@@ -102,7 +102,7 @@
                           Company Size
                         </h6>
                         <select
-                          class="input-border-pink px-3 w-100"
+                          class="input-border-pink px-3 w-100 py-2 select-height-45"
                           name="company-size"
                           id="company-size"
                         >

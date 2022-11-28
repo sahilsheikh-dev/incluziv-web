@@ -16,16 +16,16 @@
             />
           </div>
 
-          <div class="user-details">
-            <div class="">
+          <div class="user-details row">
+            <div class="col-md-6 col-lg-6 col-xl-6 mt-4 w-100">
               <p class="details fw-bold">Date of Birth</p>
               <input
                 type="date"
-                class="x input-border-pink p-2 px-3"
+                class="x input-border-pink p-2 px-3 w-100"
                 required
               />
             </div>
-            <div class="">
+            <div class="col-md-6 col-lg-6 col-xl-6 mt-4 w-100">
               <p class="details fw-bold">What's your mobile number?</p>
               <div class="input-group input-border-pink">
                 <div class="input-group-prepend">
@@ -46,7 +46,7 @@
           </div>
           <div class="gender-details mt-4">
             <p class="gender-title fw-bold">Please select your gender.</p>
-            <select class="x input-border-pink px-3">
+            <select class="x input-border-pink p-2 px-3 select-height-45 w-100">
               <option selected disabled>Select</option>
               <option>Male</option>
               <option>Female</option>
@@ -142,7 +142,7 @@
           <div class="button">
             <!-- <input type="submit" value="Next" /> -->
             <a
-              class="btn text-decoration-none text-light p-2 px-5"
+              class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
               href="#/profilestep2"
               >Next</a

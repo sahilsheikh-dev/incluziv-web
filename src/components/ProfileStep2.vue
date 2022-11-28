@@ -23,31 +23,31 @@
             <p class="details fw-bold mb-2">
               How many years of experience do you have?(Do include intership)
             </p>
-            <div class="col input-group" style="width: 300px;">
+            <div class="col input-group w-100" style="width: 300px;">
               <input
                 type="text"
-                class="form-control border border-danger rounded-0 px-3"
+                class="form-control border border-danger rounded-0 py-2 px-3"
                 placeholder="eg.4"
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
               />
               <div class="input-group-append">
                 <span
-                  class="input-group-text bg-danger border rounded-0 text-light"
+                  class="input-group-text bg-danger border rounded-0 text-light py-2"
                   id="basic-addon2"
                   >Years</span
                 >
               </div>
             </div>
-            <div class="col input-group" style="width: 300px;">
+            <div class="col input-group w-100" style="width: 300px;">
               <input
                 type="text"
-                class="form-control border-danger rounded-0 px-3"
+                class="form-control border-danger rounded-0 py-2 px-3"
                 placeholder="Carrer break(if any)"
               />
               <div class="input-group-append">
                 <span
-                  class="input-group-text bg-danger rounded-0 text-light"
+                  class="input-group-text bg-danger rounded-0 text-light py-2"
                   id="basic-addon2"
                   >Years</span
                 >
@@ -58,20 +58,18 @@
             <p class="fw-bold">
               Add upto 10 skills and how much expertise do you have with each
             </p>
-            <div class="row m">
-              <div class="col">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-6">
                 <input
                   type="text"
-                  style="width: 90%; height: 30px;"
-                  class="mt-2 text-center input-border-pink"
+                  class="text-center input-border-pink w-100 py-2"
                   placeholder="eg. 3rd october"
                   required
                 />
               </div>
-              <div class="col">
+              <div class="col-md-6 col-lg-6 col-xl-6">
                 <select
-                  class="mt-2 mb-2 input-border-pink"
-                  style="width: 90%; height: 30px;"
+                  class="x input-border-pink p-2 px-3 select-height-45 w-100"
                 >
                   <option value="" class="text-center" disabled selected
                     >Years of experience</option
@@ -85,19 +83,17 @@
             </div>
 
             <div class="row">
-              <div class="col">
+              <div class="col-md-6 col-lg-6 col-xl-6">
                 <input
                   type="text"
-                  style="width: 90%; height: 30px;"
-                  class="mt-2 text-center input-border-pink"
+                  class="text-center input-border-pink w-100 py-2"
                   placeholder="eg. 3rd october"
                   required
                 />
               </div>
-              <div class="col">
+              <div class="col-md-6 col-lg-6 col-xl-6">
                 <select
-                  class="mt-2 mb-2 input-border-pink"
-                  style="width: 90%; height: 30px;"
+                  class="x input-border-pink p-2 px-3 select-height-45 w-100"
                 >
                   <option value="" class="text-center" disabled selected
                     >Years of experience</option
@@ -111,19 +107,17 @@
             </div>
 
             <div class="row">
-              <div class="col">
+              <div class="col-md-6 col-lg-6 col-xl-6">
                 <input
                   type="text"
-                  style="width: 90%; height: 30px;"
-                  class="mt-2 text-center input-border-pink"
+                  class="text-center input-border-pink w-100 py-2"
                   placeholder="eg. 3rd october"
                   required
                 />
               </div>
-              <div class="col">
+              <div class="col-md-6 col-lg-6 col-xl-6">
                 <select
-                  class="mt-2 mb-2 input-border-pink"
-                  style="width: 90%; height: 30px;"
+                  class="x input-border-pink p-2 px-3 select-height-45 w-100"
                 >
                   <option value="" class="text-center" disabled selected
                     >Years of experience</option
@@ -140,7 +134,7 @@
           <div class="button">
             <!-- <input type="submit" value="Next" /> -->
             <a
-              class="btn text-decoration-none text-light p-2 px-5"
+              class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
               href="#/profilestep3"
               >Next</a

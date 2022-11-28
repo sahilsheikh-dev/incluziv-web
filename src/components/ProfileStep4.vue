@@ -8,8 +8,7 @@
         <form action="#">
           <p class="fw-bold mb-2">Current Employment</p>
           <select
-            class="mb-4 px-3 input-border-pink"
-            style="width: 300px; height: 30px;"
+            class="mb-4 px-3 input-border-pink w-100 py-2 select-height-45"
           >
             <option value="" class="" disabled selected>4+ Years</option>
             <option value="2+ Years">2+ Years</option>
@@ -19,22 +18,20 @@
           </select>
 
           <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <p class="mb-1 fw-bold">Current job profile</p>
               <input
                 type="text"
-                style="width: 100%; height: 30px;"
-                class="px-3 input-border-pink"
+                class="px-3 input-border-pink py-2 select-height-45 w-100"
                 placeholder="eg. Software Engineer"
                 required
               />
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <p class="mb-1 fw-bold">Current company</p>
               <input
                 type="text"
-                style="width: 100%; height: 30px;"
-                class="px-3 input-border-pink"
+                class="px-3 input-border-pink py-2 select-height-45 w-100"
                 placeholder="eg. Amazon"
                 required
               />
@@ -42,14 +39,13 @@
           </div>
 
           <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <p class="mb-1 fw-bold">
                 Which companies have you previously worked at?
               </p>
               <input
                 type="text"
-                style="width: 100%; height: 30px;"
-                class="px-3 mt-0 input-border-pink"
+                class="px-3 mt-0 input-border-pink py-2 select-height-45 w-100"
                 placeholder="eg. TCS, Amazon, Accnture, etc."
                 required
               />
@@ -57,14 +53,13 @@
           </div>
 
           <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <p class="mb-1 fw-bold">
                 Mention upto 3 industries you associated with
               </p>
               <input
                 type="text"
-                style="width: 100%; height: 30px;"
-                class="px-3 input-border-pink"
+                class="px-3 input-border-pink py-2 select-height-45 w-100"
                 placeholder="eg. Computer Science, FMCG, Logistics"
                 required
               />
@@ -75,38 +70,39 @@
             <p class="mb-0 mt-2 fw-bold">
               What is your education background?
             </p>
-            <div class="col-4">
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="px-3 input-border-pink"
-                style="width: 100%; height: 30px;"
+                class="px-3 input-border-pink py-2 select-height-45 w-100"
               >
                 <option value="" class="" disabled selected
                   >Select Course</option
                 >
                 <option value="Computer Science">Computer Science</option>
-                <option value="Information Technology">Information Technology</option>
+                <option value="Information Technology"
+                  >Information Technology</option
+                >
                 <option value="Electrical">Electrical</option>
                 <option value="Electronics">Electronics</option>
               </select>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="px-3 input-border-pink"
-                style="width: 100%; height: 30px;"
+                class="px-3 input-border-pink py-2 select-height-45 w-100"
               >
                 <option value="" class="" disabled selected
                   >Specialization</option
                 >
                 <option value="Computer Science">Computer Science</option>
-                <option value="Information Technology">Information Technology</option>
+                <option value="Information Technology"
+                  >Information Technology</option
+                >
                 <option value="Electrical">Electrical</option>
                 <option value="Electronics">Electronics</option>
               </select>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="px-3 input-border-pink"
-                style="width: 100%; height: 30px;"
+                class="px-3 input-border-pink py-2 select-height-45 w-100"
               >
                 <option value="" class="" disabled selected
                   >Completion year</option
@@ -120,10 +116,9 @@
           </div>
 
           <div class="row">
-            <div class="col-8">
+            <div class="col-md-8 col-lg-8 col-xl-8 w-100 ">
               <select
-                class="mb-4 px-3 input-border-pink"
-                style="width: 100%; height: 30px;"
+                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100"
               >
                 <option value="" class="" disabled selected
                   >College Name</option
@@ -134,10 +129,9 @@
                 <option value="BITS">BITS</option>
               </select>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="mb-4 px-3 input-border-pink"
-                style="width: 100%; height: 30px;"
+                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100"
               >
                 <option value="" class="" disabled selected
                   >Full/Part Time</option
@@ -148,9 +142,8 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-2"></div>
             <div
-              class=" col-4 fileUpload btn btn-warning border rounded-0 btn-sm"
+              class="col-md-4 col-lg-4 col-xl-4 w-100 my-2 offset-md-2 offset-lg-2 offset-xl-2 fileUpload btn btn-warning border rounded-0 btn-sm btn-hover-yellow"
             >
               <label class="upload p-2">
                 <input name="Image" type="file" />
@@ -159,7 +152,7 @@
             </div>
 
             <div
-              class="ms-3 col-4 fileUpload btn btn-warning border rounded-0 btn-sm"
+              class="col-md-4 col-lg-4 col-xl-4 w-100 my-2 fileUpload btn btn-warning border rounded-0 btn-sm btn-hover-yellow"
             >
               <label class="upload p-2">
                 <input name="Image" type="file" />
@@ -173,7 +166,7 @@
           <div class="button">
             <!-- <input type="submit" value="Next" /> -->
             <a
-              class="btn text-decoration-none text-light p-2 px-5"
+              class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
               href="#/profile"
               >Next</a

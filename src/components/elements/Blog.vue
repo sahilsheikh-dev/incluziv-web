@@ -18,7 +18,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <button
-              class="btn px-4 fw-bold"
+              class="btn px-4 fw-bold btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px;"
             >
               READ MORE
@@ -37,7 +37,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <button
-              class="btn px-4 fw-bold"
+              class="btn px-4 fw-bold btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px;"
             >
               READ MORE
@@ -56,7 +56,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <button
-              class="btn px-4 fw-bold"
+              class="btn px-4 fw-bold btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px;"
             >
               READ MORE

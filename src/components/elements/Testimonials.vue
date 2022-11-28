@@ -2,7 +2,9 @@
   <div class="testinomial-section">
     <div class="py-5 container">
       <div class="row">
-        <div class="col-md-4 col-lg-4 col-xl-4 text-start">
+        <div
+          class="col-md-4 col-lg-4 col-xl-4 text-center text-md-start text-lg-start text-xl-start"
+        >
           <p class="text-primary mb-0" style="font-size: 14px;">
             CLIENTS TESTIMONIALS
           </p>
@@ -17,11 +19,41 @@
           </p>
         </div>
         <div class="col-md-8 col-lg-8 col-xl-8 text-center">
-          <img
-            class="img-fluid mx-auto"
-            src="../../assets/img/testimonial-img.png"
-            alt="logo"
-          />
+          <div class="d-block d-md-none d-lg-none d-xl-none">
+            <img
+              class="img-fluid mx-auto"
+              src="../../assets/img/testimonial-img.png"
+              alt="logo"
+            />
+          </div>
+          <div
+            class="testimonial-image-section d-none d-mg-block d-lg-block d-xl-block"
+          >
+            <img
+              class="img-fluid testinomial-image w-50"
+              src="../../assets/img/testimonial-img-1.png"
+              style="margin-left: -20px; margin-top: 80px;"
+              alt="logo"
+            />
+            <img
+              class="img-fluid testinomial-image w-50"
+              src="../../assets/img/testimonial-img-1.png"
+              style="margin-left: -100px; margin-top: -50px;"
+              alt="logo"
+            />
+            <img
+              class="img-fluid testinomial-image w-50"
+              src="../../assets/img/testimonial-img-1.png"
+              style="margin-left: 500px; margin-top: -100px;"
+              alt="logo"
+            />
+            <img
+              class="img-fluid testinomial-image w-50"
+              src="../../assets/img/testimonial-img-1.png"
+              style="margin-left: 50px; margin-top: -70px;"
+              alt="logo"
+            />
+          </div>
         </div>
       </div>
     </div>

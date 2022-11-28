@@ -24,7 +24,7 @@
               Chennai | Full Time
             </p>
             <button
-              class="btn px-4"
+              class="btn px-4 btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px;"
             >
               EXPLORE
@@ -49,7 +49,7 @@
               Chennai | Full Time
             </p>
             <button
-              class="btn px-4"
+              class="btn px-4 btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px;"
             >
               EXPLORE
@@ -74,7 +74,7 @@
               Chennai | Full Time
             </p>
             <button
-              class="btn px-4"
+              class="btn px-4 btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px;"
             >
               EXPLORE
@@ -99,7 +99,7 @@
               Chennai | Full Time
             </p>
             <button
-              class="btn px-4"
+              class="btn px-4 btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px;"
             >
               EXPLORE
@@ -124,7 +124,7 @@
               Chennai | Full Time
             </p>
             <button
-              class="btn px-4"
+              class="btn px-4 btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px;"
             >
               EXPLORE
@@ -149,7 +149,7 @@
               Chennai | Full Time
             </p>
             <button
-              class="btn px-4"
+              class="btn px-4 btn-hover-white"
               style="border: 2px solid #c7d3ff; border-radius: 20px;"
             >
               EXPLORE

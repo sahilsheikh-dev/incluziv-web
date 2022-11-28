@@ -58,7 +58,7 @@
             ></textarea>
             <div class="text-end">
               <button
-                class="btn px-4 mt-3 bg-primary text-light"
+                class="btn px-4 mt-3 bg-primary text-light btn-hover-blue"
                 style="border: 2px solid #c7d3ff; border-radius: 20px;"
               >
                 SUBMIT
