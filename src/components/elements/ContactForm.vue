@@ -14,6 +14,7 @@
               name="name"
               id="name"
               placeholder="Your Name"
+              required
               style="border-bottom: 2px solid black;"
             />
           </div>
@@ -24,6 +25,7 @@
               name="email"
               id="email"
               placeholder="email@gmail.com"
+              required
               style="border-bottom: 2px solid black;"
             />
           </div>
@@ -34,6 +36,7 @@
               name="phone"
               id="phone"
               placeholder="+91 5689754865"
+              required
               style="border-bottom: 2px solid black;"
             />
           </div>
@@ -44,6 +47,7 @@
               name="subject"
               id="subject"
               placeholder="Subject"
+              required
               style="border-bottom: 2px solid black;"
             />
           </div>
@@ -54,12 +58,14 @@
               name="mesaage"
               id="message"
               placeholder="Message"
+              required
               style="height: 100px; border: none; border-bottom: 2px solid black;"
             ></textarea>
             <div class="text-end">
               <button
                 class="btn px-4 mt-3 bg-primary text-light btn-hover-blue"
                 style="border: 2px solid #c7d3ff; border-radius: 20px;"
+                type="submit"
               >
                 SUBMIT
               </button>

@@ -34,7 +34,7 @@
           />
           <!-- <button
             type="submit"
-            class="form-control p-2 px-5 input-box mb-3 text-light bg-primary submit-btn text-uppercase"
+            class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
             id="loginsubmit"
           >
             Agree & Continue
