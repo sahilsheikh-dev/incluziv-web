@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer navbar py-md-5">
+  <footer class="footer navbar">
     <div class="container">
       <div class="row my-0">
         <div

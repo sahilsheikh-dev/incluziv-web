@@ -10,6 +10,7 @@
           <div class="col-md-3 col-lg-3 col-xl-3">
             <p>NAME</p>
             <input
+              class="w-100"
               type="text"
               name="name"
               id="name"
@@ -21,6 +22,7 @@
           <div class="col-md-3 col-lg-3 col-xl-3">
             <p>E-MAIL ADDRESS</p>
             <input
+              class="w-100"
               type="email"
               name="email"
               id="email"
@@ -32,6 +34,7 @@
           <div class="col-md-3 col-lg-3 col-xl-3">
             <p>PHONE NUMBER</p>
             <input
+              class="w-100"
               type="tel"
               name="phone"
               id="phone"
@@ -43,6 +46,7 @@
           <div class="col-md-3 col-lg-3 col-xl-3">
             <p>SUBJECT</p>
             <input
+              class="w-100"
               type="text"
               name="subject"
               id="subject"

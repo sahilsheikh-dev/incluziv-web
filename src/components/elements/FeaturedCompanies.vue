@@ -7,7 +7,7 @@
           class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center offset-md-1 offset-lg-1 offset-xl-1"
         >
           <img
-            class=" img-fluid mx-auto w-50"
+            class="img-fluid mx-auto w-50 company-logo"
             src="../../assets/img/dell.png"
             alt="logo"
           />
@@ -16,7 +16,7 @@
           class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
         >
           <img
-            class=" img-fluid mx-auto w-50"
+            class="img-fluid mx-auto w-50 company-logo"
             src="../../assets/img/tcs.png"
             alt="logo"
           />
@@ -25,7 +25,7 @@
           class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
         >
           <img
-            class=" img-fluid mx-auto w-50"
+            class="img-fluid mx-auto w-50 company-logo"
             src="../../assets/img/infosys.png"
             alt="logo"
           />
@@ -34,7 +34,7 @@
           class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
         >
           <img
-            class=" img-fluid mx-auto w-50"
+            class="img-fluid mx-auto w-50 company-logo"
             src="../../assets/img/google.png"
             alt="logo"
           />
@@ -43,7 +43,7 @@
           class="col-6 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center"
         >
           <img
-            class=" img-fluid mx-auto w-50"
+            class="img-fluid mx-auto w-50 company-logo"
             src="../../assets/img/paytm.png"
             alt="logo"
           />

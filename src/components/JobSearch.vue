@@ -4,9 +4,9 @@
     <div class="jobsearch-section">
       <div class="row my-3">
         <div class="col-md-4 col-lg-4 col-xl-4">
-          <div class="job-search-side-card mx-5">
+          <div class="job-search-side-card mx-3">
             <div class="text-center">
-              <v-expansion-panels>
+              <v-expansion-panels :value="opened">
                 <v-expansion-panel class="pb-4">
                   <v-expansion-panel-header>
                     <p class="text-dark fw-bold mt-3">
@@ -310,6 +310,7 @@ export default {
   name: "JobSearch",
   data() {
     return {
+      opened: 0,
       msg: "Welcome to Candidate Search"
     };
   }

@@ -23,7 +23,7 @@
             <p class="details fw-bold mb-2">
               How many years of experience do you have?(Do include intership)
             </p>
-            <div class="col input-group w-100" style="width: 300px;">
+            <div class="col input-group w-100 px-0" style="max-width: 500px;">
               <input
                 type="text"
                 class="form-control border border-danger rounded-0 py-2 px-3"
@@ -39,7 +39,7 @@
                 >
               </div>
             </div>
-            <div class="col input-group w-100" style="width: 300px;">
+            <div class="col input-group w-100 px-0" style="max-width: 500px;">
               <input
                 type="text"
                 class="form-control border-danger rounded-0 py-2 px-3"
@@ -63,7 +63,7 @@
                 <input
                   type="text"
                   class="text-center input-border-pink w-100 py-2"
-                  placeholder="eg. 3rd october"
+                  placeholder="e.g. Java, Python, C++, etc."
                   required
                 />
               </div>
@@ -87,7 +87,7 @@
                 <input
                   type="text"
                   class="text-center input-border-pink w-100 py-2"
-                  placeholder="eg. 3rd october"
+                  placeholder="e.g. Java, Python, C++, etc."
                   required
                 />
               </div>
@@ -111,7 +111,7 @@
                 <input
                   type="text"
                   class="text-center input-border-pink w-100 py-2"
-                  placeholder="eg. 3rd october"
+                  placeholder="e.g. Java, Python, C++, etc."
                   required
                 />
               </div>

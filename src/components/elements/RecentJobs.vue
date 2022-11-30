@@ -12,7 +12,7 @@
             style="border-radius: 10px;"
           >
             <img
-              class="image-thumbnail w-25 mb-3"
+              class="image-thumbnail w-25 mb-3 company-logo"
               src="../../assets/img/google.png"
               alt="logo"
             />
@@ -37,7 +37,7 @@
             style="border-radius: 10px;"
           >
             <img
-              class="image-thumbnail w-25 mb-3"
+              class="image-thumbnail w-25 mb-3 company-logo"
               src="../../assets/img/google.png"
               alt="logo"
             />
@@ -62,7 +62,7 @@
             style="border-radius: 10px;"
           >
             <img
-              class="image-thumbnail w-25 mb-3"
+              class="image-thumbnail w-25 mb-3 company-logo"
               src="../../assets/img/google.png"
               alt="logo"
             />
@@ -87,7 +87,7 @@
             style="border-radius: 10px;"
           >
             <img
-              class="image-thumbnail w-25 mb-3"
+              class="image-thumbnail w-25 mb-3 company-logo"
               src="../../assets/img/google.png"
               alt="logo"
             />
@@ -112,7 +112,7 @@
             style="border-radius: 10px;"
           >
             <img
-              class="image-thumbnail w-25 mb-3"
+              class="image-thumbnail w-25 mb-3 company-logo"
               src="../../assets/img/google.png"
               alt="logo"
             />
@@ -137,7 +137,7 @@
             style="border-radius: 10px;"
           >
             <img
-              class="image-thumbnail w-25 mb-3"
+              class="image-thumbnail w-25 mb-3 company-logo"
               src="../../assets/img/google.png"
               alt="logo"
             />
