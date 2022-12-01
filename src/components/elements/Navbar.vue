@@ -26,10 +26,16 @@
               Home
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >About Us</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Contact Us</a
               >
               <div
@@ -43,19 +49,40 @@
               Job Seekers
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="/#/jobsearch"
                 >Find jobs</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="/#/inbox"
+                >Inbox</a
+              >
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Top Diversity Employers</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Diversity Insights</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Job Seeker- Company reviews</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Share your story</a
               >
               <div
@@ -69,17 +96,29 @@
               Employers
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="/#/postJob"
                 >Post a job</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Find candidates</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Diversity Policies and <br />
                 Implementation support</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Why Diversity?</a
               >
               <div
@@ -93,13 +132,22 @@
               Community
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Blog/Diaries</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Job Fairs and Events</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Regional Communities/Chapters</a
               >
               <div
@@ -113,13 +161,22 @@
               Upskilling
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Training/Certifications</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Webinars/Seminars</a
               >
-              <a class="dropdown-item fw-bold mb-3" style="font-size: 16px;" href="#"
+              <a
+                class="dropdown-item fw-bold mb-3"
+                style="font-size: 16px;"
+                href="#"
                 >Career Guidance</a
               >
               <div

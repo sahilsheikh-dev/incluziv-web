@@ -11,6 +11,9 @@ import JobSearch from "@/components/JobSearch";
 import JobActivities from "@/components/JobActivities";
 import Inbox from "@/components/Inbox";
 import Profile from "@/components/Profile";
+import PostJob from "@/components/PostJob";
+import Targeting from "@/components/Targeting";
+import RecruiterDashboard from "@/components/RecruiterDashboard";
 
 Vue.use(Router);
 
@@ -70,6 +73,21 @@ export default new Router({
       path: "/profile",
       name: "Profile",
       component: Profile
+    },
+    {
+      path: "/postJob",
+      name: "PostJob",
+      component: PostJob
+    },
+    {
+      path: "/targeting",
+      name: "Targeting",
+      component: Targeting
+    },
+    {
+      path: "/recruiterDashboard",
+      name: "RecruiterDashboard",
+      component: RecruiterDashboard
     }
   ]
 });

@@ -139,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7 col-lg-7 col-xl-7">
+        <div class="col-md-7 col-lg-7 col-xl-7 px-4">
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Search Results
           </h2>

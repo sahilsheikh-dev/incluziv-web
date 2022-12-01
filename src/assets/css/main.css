@@ -11,6 +11,10 @@
   font-size: 60px;
 }
 
+input {
+  box-shadow: none !important;
+}
+
 .search-preference-section {
   background-image: url("../img/search.png");
   background-repeat: no-repeat;
@@ -214,6 +218,50 @@ input:focus {
   height: 43px;
 }
 
+.bg-pink {
+  background-color: rgb(237, 62, 97) !important;
+  color: #ffffff !important;
+}
+
+.guideline-text {
+  color: rgb(237, 62, 97);
+  font-weight: bold;
+}
+
+.postjob-section {
+  min-height: 100vh;
+  background-image: url("../img/profile-steps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.targeting-section {
+  min-height: 100vh;
+  background-image: url("../img/profile-steps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.recruiter-dahboard-section {
+  min-height: 100vh;
+  background-image: url("../img/profile-steps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-pink {
+  color: rgb(237, 62, 97) !important;
+}
+
+.contact-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
 @media (max-width: 584px) {
   .hero-title {
     font-size: 36px;
@@ -248,7 +296,19 @@ input:focus {
   .profile {
     background-image: url("");
   }
+  .postjob-section {
+    background-image: url("../img/profile-steps.png");
+  }
+  .targeting-section {
+    background-image: url("../img/profile-steps.png");
+  }
+  .recruiter-dahboard-section {
+    background-image: url("../img/profile-steps.png");
+  }
   .footer {
     padding-top: 100px;
+  }
+  .border-none {
+    border: none !important;
   }
 }

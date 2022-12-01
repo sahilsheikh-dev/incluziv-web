@@ -106,14 +106,22 @@
               </div>
             </div>
           </div>
-          <button
+          <!-- <button
             type="submit"
             class="form-control p-2 px-5 input-box mt-5 mb-0 text-light bg-primary submit-btn btn-hover-blue"
             id="recruitersignup"
             style="max-width: 350px;"
           >
             REGISTER
-          </button>
+          </button> -->
+          <a
+            href="/#/recruiterDashboard"
+            class="form-control mt-5 mb-0 p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
+            id="recruitersignup"
+            style="max-width: 350px;"
+          >
+            REGISTER
+          </a>
         </form>
       </div>
     </div>
