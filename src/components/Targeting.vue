@@ -44,7 +44,7 @@
             <form action="#" class="text-start">
               <div class="user-details">
                 <div class="mt-4 w-100">
-                  <p class="details fw-bold">Insdustry (Select upto 5)</p>
+                  <p class="details fw-bold">Industry (Select upto 5)</p>
                   <input
                     type="text"
                     class="x input-border-pink p-2 px-3 w-100"

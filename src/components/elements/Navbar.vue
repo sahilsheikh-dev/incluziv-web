@@ -105,7 +105,7 @@
               <a
                 class="dropdown-item fw-bold mb-3"
                 style="font-size: 16px;"
-                href="#"
+                href="/#/searchCandidate"
                 >Find candidates</a
               >
               <a
