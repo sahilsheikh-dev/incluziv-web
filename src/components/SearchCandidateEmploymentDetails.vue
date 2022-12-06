@@ -3,7 +3,7 @@
     <Navbar />
     <div class="recruiter-dahboard-section">
       <div class="row my-3">
-        <div class="col-md-4 col-lg-4 col-xl-4">
+        <div class="col-md-3 col-lg-3 col-xl-3">
           <div class="job-search-side-card mx-3">
             <div class="text-start">
               <v-expansion-panels :value="opened">
@@ -17,7 +17,7 @@
                   <v-expansion-panel-content>
                     <div class="recent-candidate-searches px-2">
                       <div class="candidate-search mb-4">
-                        <p class="fw-bold mb-0">
+                        <p class="fw-bold mb-0" style="font-size: 14px;">
                           Visa Counseller | 8 Yrs Exp. | Gurgaon
                         </p>
                         <a
@@ -33,7 +33,7 @@
                         >
                       </div>
                       <div class="candidate-search mb-4">
-                        <p class="fw-bold mb-0">
+                        <p class="fw-bold mb-0" style="font-size: 14px;">
                           Software Dev. | 8 Yrs Exp. | Bangalore
                         </p>
                         <a
@@ -49,7 +49,7 @@
                         >
                       </div>
                       <div class="candidate-search mb-4">
-                        <p class="fw-bold mb-0">
+                        <p class="fw-bold mb-0" style="font-size: 14px;">
                           Business Analyst | 3 Yrs Exp. | Mumbai
                         </p>
                         <a
@@ -77,7 +77,7 @@
                   <v-expansion-panel-content>
                     <div class="recent-candidate-searches px-2">
                       <div class="candidate-search mb-4">
-                        <p class="fw-bold mb-0">
+                        <p class="fw-bold mb-0" style="font-size: 14px;">
                           Visa Counseller | 8 Yrs Exp. | Gurgaon
                         </p>
                         <a
@@ -93,7 +93,7 @@
                         >
                       </div>
                       <div class="candidate-search mb-4">
-                        <p class="fw-bold mb-0">
+                        <p class="fw-bold mb-0" style="font-size: 14px;">
                           Software Dev. | 8 Yrs Exp. | Bangalore
                         </p>
                         <a
@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7 col-lg-7 col-xl-7 px-4">
+        <div class="col-md-6 col-lg-6 col-xl-6">
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Search Candidate
           </h2>

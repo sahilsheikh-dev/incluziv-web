@@ -1,6 +1,6 @@
 <template>
-  <div class="contact-form-section">
-    <div class="py-5 container">
+  <div class="contact-form-section pt-5 mt-5 mb-0">
+    <div class="pt-5 pb-0 container">
       <p class="text-primary mb-0" style="font-size: 14px;">
         CONTACT FORM
       </p>
@@ -78,7 +78,7 @@
         </div>
       </form>
     </div>
-    <div class="map">
+    <!-- <div class="map">
       <iframe
         class="w-100 mb-0 pb-0"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.3680899703268!2d77.03774539999999!3d28.468459400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d184b4aaa7cb1%3A0x88f28291a777baf1!2s182%2C%20Old%20Delhi%20Gurgaon%20Rd%2C%20Prem%20Nagar%2C%20Sector%2013%2C%20Gurugram%2C%20Haryana%20122001!5e0!3m2!1sen!2sin!4v1668789573606!5m2!1sen!2sin"
@@ -87,7 +87,7 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="testinomial-section">
+  <section class="testinomial-section py-5 my-5">
     <div class="py-5 container">
       <div class="row">
         <div
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="featured-companies-section">
+  <section class="featured-companies-section pt-5 my-5">
     <div class="py-5 container">
       <h1 class="text-dark fw-bold mt-0 mb-5">Featured Companies</h1>
       <div class="row my-3">
@@ -50,7 +50,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>

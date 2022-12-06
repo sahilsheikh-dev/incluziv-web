@@ -3,7 +3,7 @@
     <Navbar />
     <div class="recruiter-dahboard-section">
       <div class="row my-3">
-        <div class="col-md-4 col-lg-4 col-xl-4">
+        <div class="col-md-3 col-lg-3 col-xl-3">
           <div class="job-search-side-card mx-3">
             <div class="text-start">
               <v-expansion-panels :value="opened">
@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7 col-lg-7 col-xl-7 px-4">
+        <div class="col-md-6 col-lg-6 col-xl-6">
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Search Candidate
           </h2>
@@ -155,7 +155,7 @@
                     style="max-width: 500px;"
                   >
                     <select
-                      class="x input-border-pink p-2 px-3 select-height-45"
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
                     >
                       <option class="text-start" disabled selected
                         >Add Experience</option
@@ -165,7 +165,7 @@
                       <option value="3">8</option>
                       <option value="4">10</option>
                     </select>
-                    <div class="input-group-append">
+                    <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
                         id="basic-addon2"
@@ -183,7 +183,7 @@
                     style="max-width: 500px;"
                   >
                     <select
-                      class="x input-border-pink p-2 px-3 select-height-45"
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
                     >
                       <option class="text-start" disabled selected
                         >Min Experience</option
@@ -193,7 +193,7 @@
                       <option value="3">8</option>
                       <option value="4">10</option>
                     </select>
-                    <div class="input-group-append">
+                    <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
                         id="basic-addon2"
@@ -208,7 +208,7 @@
                     style="max-width: 500px;"
                   >
                     <select
-                      class="x input-border-pink p-2 px-3 select-height-45"
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
                     >
                       <option class="text-start" disabled selected
                         >Max Experience</option
@@ -218,7 +218,7 @@
                       <option value="3">8</option>
                       <option value="4">10</option>
                     </select>
-                    <div class="input-group-append">
+                    <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
                         id="basic-addon2"
@@ -335,7 +335,7 @@
                     style="max-width: 500px;"
                   >
                     <select
-                      class="x input-border-pink p-2 px-3 select-height-45"
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
                     >
                       <option class="text-start" disabled selected
                         >Min Salary</option
@@ -345,7 +345,7 @@
                       <option value="18LPA">18LPA</option>
                       <option value="50LPA">50LPA</option>
                     </select>
-                    <div class="input-group-append">
+                    <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
                         id="basic-addon2"
@@ -360,7 +360,7 @@
                     style="max-width: 500px;"
                   >
                     <select
-                      class="x input-border-pink p-2 px-3 select-height-45"
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
                     >
                       <option class="text-start" disabled selected
                         >Max Salary</option
@@ -370,7 +370,7 @@
                       <option value="18LPA">18LPA</option>
                       <option value="50LPA">50LPA</option>
                     </select>
-                    <div class="input-group-append">
+                    <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
                         id="basic-addon2"

@@ -22,18 +22,18 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto fw-bold">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active mx-2">
+            <a class="nav-link dropdown-toggle active mx-2 text-hover-pink">
               Home
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >About Us</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Contact Us</a
@@ -45,42 +45,42 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active mx-2">
+            <a class="nav-link dropdown-toggle active mx-2 text-hover-pink">
               Job Seekers
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="/#/jobsearch"
-                >Find jobs</a
+                >Find Jobs</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="/#/inbox"
                 >Inbox</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Top Diversity Employers</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Diversity Insights</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Job Seeker- Company reviews</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Share your story</a
@@ -92,31 +92,31 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active mx-2">
+            <a class="nav-link dropdown-toggle active mx-2 text-hover-pink">
               Employers
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="/#/postJob"
-                >Post a job</a
+                >Post a Job</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="/#/searchCandidate"
                 >Find candidates</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Diversity Policies and <br />
                 Implementation support</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Why Diversity?</a
@@ -128,24 +128,24 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active mx-2">
+            <a class="nav-link dropdown-toggle active mx-2 text-hover-pink">
               Community
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Blog/Diaries</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Job Fairs and Events</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Regional Communities/Chapters</a
@@ -157,24 +157,24 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active mx-2">
+            <a class="nav-link dropdown-toggle active mx-2 text-hover-pink">
               Upskilling
             </a>
             <div class="dropdown-menu text-center" style="border: none;">
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Training/Certifications</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Webinars/Seminars</a
               >
               <a
-                class="dropdown-item fw-bold mb-3"
+                class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="#"
                 >Career Guidance</a

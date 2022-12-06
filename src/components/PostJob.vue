@@ -3,7 +3,7 @@
     <Navbar />
     <div class="postjob-section">
       <div class="row my-3">
-        <div class="col-md-4 col-lg-4 col-xl-4">
+        <div class="col-md-3 col-lg-3 col-xl-3">
           <div class="job-search-side-card mx-3">
             <div class="text-center">
               <v-expansion-panels :value="opened">
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7 col-lg-7 col-xl-7 px-4">
+        <div class="col-md-6 col-lg-6 col-xl-6">
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Post Job
           </h2>

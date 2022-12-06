@@ -127,6 +127,7 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* margin-top: -70px !important; */
   padding-top: 120px;
 }
 
@@ -190,10 +191,32 @@ input:focus {
   line-height: 40px;
 }
 
+.btn-hover-pink-fill {
+  background-color: #ffffff !important;
+  color: rgb(237, 62, 97) !important;
+  border: 1px solid rgb(237, 62, 97);
+  padding: 7px 40px !important;
+}
+
+.btn-hover-pink-fill:hover {
+  background-color: rgb(237, 62, 97) !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+}
+
 .btn-hover-pink:hover {
   color: rgb(237, 62, 97) !important;
   background-color: #ffffff !important;
   border: 1px solid rgb(237, 62, 97);
+}
+
+.text-hover-pink:hover {
+  color: rgb(237, 62, 97) !important;
+}
+
+.bg-hover-pink:hover {
+  background-color: rgb(237, 62, 97) !important;
+  color: #ffffff !important;
 }
 
 .btn-hover-white:hover {

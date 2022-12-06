@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-section d-flex align-items-center">
+  <section class="hero-section d-flex align-items-center">
     <div class="w-100">
       <h1 class="fw-bold hero-title">Find Your Dream Job Now</h1>
       <div class="mx-auto bg-dark my-4" style="width: 20%; height: 2px;"></div>
@@ -13,7 +13,7 @@
         >SIGN UP NOW</a
       >
     </div>
-  </div>
+  </section>
 </template>
 
 <style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="recent-jobs-section">
+  <section class="recent-jobs-section py-5 my-5">
     <div class="py-5 container">
       <p class="text-primary mb-0" style="font-size: 14px;">
         JOBS
@@ -157,8 +157,17 @@
           </div>
         </div>
       </div>
+      <div class="text-center">
+        <button
+          class="btn px-4 mt-3 bg-primary text-light btn-hover-blue"
+          style="border: 2px solid #c7d3ff; border-radius: 20px;"
+          type="submit"
+        >
+          FIND MORE
+        </button>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>

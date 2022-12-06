@@ -1,5 +1,5 @@
 <template>
-  <div class="search-preference-section">
+  <section class="search-preference-section py-5 my-5">
     <div class="py-5">
       <p class="text-primary mb-0" style="font-size: 14px;">
         JOB SEARCH
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>
