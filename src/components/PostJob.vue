@@ -7,7 +7,7 @@
           <div class="job-search-side-card mx-3">
             <div class="text-center">
               <v-expansion-panels :value="opened">
-                <v-expansion-panel>
+                <v-expansion-panel class="pb-4 card-height">
                   <v-expansion-panel-content>
                     <div class="text-start mt-4">
                       <h6 class="fw-bold">

@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-form-section pt-5 mt-5 mb-0">
+  <div class="contact-form-section pt-5 mt-5 mb-0 pb-5">
     <div class="pt-5 pb-0 container">
       <p class="text-primary mb-0" style="font-size: 14px;">
         CONTACT FORM

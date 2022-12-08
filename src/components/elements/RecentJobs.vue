@@ -159,11 +159,11 @@
       </div>
       <div class="text-center">
         <button
-          class="btn px-4 mt-3 bg-primary text-light btn-hover-blue"
+          class="btn px-5 mt-3 bg-primary text-light btn-hover-blue"
           style="border: 2px solid #c7d3ff; border-radius: 20px;"
           type="submit"
         >
-          FIND MORE
+          &nbsp;&nbsp;&nbsp;FIND MORE &nbsp;&nbsp;&nbsp;
         </button>
       </div>
     </div>

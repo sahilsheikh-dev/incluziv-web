@@ -7,7 +7,7 @@
           <div class="job-search-side-card mx-3">
             <div class="text-start">
               <v-expansion-panels :value="opened">
-                <v-expansion-panel>
+                <v-expansion-panel class="pb-4 card-height">
                   <v-expansion-panel-header>
                     <p class="text-dark fw-bold mt-3 text-start">
                       Your Chats <i class="bi bi-chevron-down"></i>
@@ -101,7 +101,7 @@
                       <img
                         class="img-fluid my-2"
                         style="max-width: 70px;"
-                        src="../assets/img/google.png"
+                        src="../assets/img/stat-icon-1.png"
                         alt=""
                       />
                     </div>
@@ -118,7 +118,7 @@
                       <img
                         class="img-fluid my-2"
                         style="max-width: 70px;"
-                        src="../assets/img/google.png"
+                        src="../assets/img/stat-icon-2.png"
                         alt=""
                       />
                     </div>
@@ -137,7 +137,7 @@
                       <img
                         class="img-fluid my-2"
                         style="max-width: 70px;"
-                        src="../assets/img/google.png"
+                        src="../assets/img/stat-icon-3.png"
                         alt=""
                       />
                     </div>
@@ -156,7 +156,7 @@
                       <img
                         class="img-fluid my-2"
                         style="max-width: 70px;"
-                        src="../assets/img/google.png"
+                        src="../assets/img/stat-icon-4.png"
                         alt=""
                       />
                     </div>

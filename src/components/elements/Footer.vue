@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer navbar">
+  <footer class="footer navbar" style="margin-top: -40px !important;">
     <div class="container">
       <div class="row my-0">
         <div

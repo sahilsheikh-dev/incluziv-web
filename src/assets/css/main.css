@@ -141,7 +141,7 @@ input {
 
 .profile-step {
   min-height: 100vh;
-  background-image: url("../img/profile-steps.png");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -149,7 +149,7 @@ input {
 
 .jobsearch {
   min-height: 100vh;
-  background-image: url("../img/profile-steps.png");
+  background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -165,9 +165,10 @@ input {
 
 .profile {
   min-height: 100vh;
-  background-image: url("../img/profile-bg.png");
-  background-repeat: repeat-y;
-  background-size: 100%;
+  background-image: url("../img/new-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .profile-section {
@@ -253,7 +254,7 @@ input:focus {
 
 .postjob-section {
   min-height: 100vh;
-  background-image: url("../img/profile-steps.png");
+  background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -261,7 +262,7 @@ input:focus {
 
 .targeting-section {
   min-height: 100vh;
-  background-image: url("../img/profile-steps.png");
+  background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -269,7 +270,7 @@ input:focus {
 
 .recruiter-dahboard-section {
   min-height: 100vh;
-  background-image: url("../img/profile-steps.png");
+  background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -285,6 +286,15 @@ input:focus {
   object-fit: cover;
 }
 
+.card-height {
+  min-height: 750px;
+}
+
+@media (max-width: 959px) {
+  .card-height {
+    height: 100%;
+  }
+}
 @media (max-width: 584px) {
   .hero-title {
     font-size: 36px;
@@ -308,10 +318,10 @@ input:focus {
     background-image: url("../img/sign-up.png");
   }
   .profile-step {
-    background-image: url("../img/profile-steps.png");
+    background-image: url("../img/new-background.png");
   }
   .jobsearch {
-    background-image: url("../img/profile-steps.png");
+    background-image: url("../img/new-background.png");
   }
   .testinomial-section {
     background-image: url("") !important;
@@ -320,18 +330,21 @@ input:focus {
     background-image: url("");
   }
   .postjob-section {
-    background-image: url("../img/profile-steps.png");
+    background-image: url("../img/new-background.png");
   }
   .targeting-section {
-    background-image: url("../img/profile-steps.png");
+    background-image: url("../img/new-background.png");
   }
   .recruiter-dahboard-section {
-    background-image: url("../img/profile-steps.png");
+    background-image: url("../img/new-background.png");
   }
   .footer {
     padding-top: 100px;
   }
   .border-none {
     border: none !important;
+  }
+  .card-height {
+    height: 100%;
   }
 }
