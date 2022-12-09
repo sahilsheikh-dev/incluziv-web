@@ -306,6 +306,10 @@ input:focus {
   min-height: 750px;
 }
 
+.card-margin-x {
+  margin: 0 100px !important;
+}
+
 @media (max-width: 959px) {
   .card-height {
     min-height: 100%;
@@ -366,5 +370,8 @@ input:focus {
   }
   .card-height {
     height: 100%;
+  }
+  .card-margin-x {
+    margin: 0 !important;
   }
 }

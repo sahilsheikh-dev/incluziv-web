@@ -6,23 +6,27 @@
       <hr color="red" size="1" />
       <div class="content">
         <form action="#">
-          <p class="fw-bold mb-2">Current Employment</p>
-          <select
-            class="mb-4 px-3 input-border-pink w-100 py-2 select-height-45"
-          >
-            <option value="" class="" disabled selected>4+ Years</option>
-            <option value="2+ Years">2+ Years</option>
-            <option value="4+ Years">4+ Years</option>
-            <option value="6+ Years">6+ Years</option>
-            <option value="10+ Years">10+ Years</option>
-          </select>
+          <p class="fw-bold mb-0">Current Employment</p>
+          <div class="row my-0 py-0">
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100 my-0">
+              <select
+                class="mb-0 px-3 input-border-pink w-100 py-2 select-height-45 bg-light"
+              >
+                <option value="" class="" disabled selected>4+ Years</option>
+                <option value="2+ Years">2+ Years</option>
+                <option value="4+ Years">4+ Years</option>
+                <option value="6+ Years">6+ Years</option>
+                <option value="10+ Years">10+ Years</option>
+              </select>
+            </div>
+          </div>
 
-          <div class="row">
+          <div class="row mt-0">
             <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <p class="mb-1 fw-bold">Current job profile</p>
               <input
                 type="text"
-                class="px-3 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
                 placeholder="eg. Software Engineer"
                 required
               />
@@ -31,7 +35,7 @@
               <p class="mb-1 fw-bold">Current company</p>
               <input
                 type="text"
-                class="px-3 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
                 placeholder="eg. Amazon"
                 required
               />
@@ -39,13 +43,13 @@
           </div>
 
           <div class="row">
-            <div class="col-md-6 col-lg-6 col-xl-6 w-100">
-              <p class="mb-1 fw-bold">
-                Which companies have you previously worked at?
-              </p>
+            <p class="mt-2 mb-0 fw-bold">
+              Which companies have you previously worked at?
+            </p>
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100 mt-0">
               <input
                 type="text"
-                class="px-3 mt-0 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 mt-0 input-border-pink py-2 select-height-45 w-100 bg-light"
                 placeholder="eg. TCS, Amazon, Accnture, etc."
                 required
               />
@@ -53,13 +57,13 @@
           </div>
 
           <div class="row">
-            <div class="col-md-6 col-lg-6 col-xl-6 w-100">
-              <p class="mb-1 fw-bold">
-                Mention upto 3 industries you associated with
-              </p>
+            <p class="mt-2 mb-0 fw-bold">
+              Mention upto 3 industries you associated with
+            </p>
+            <div class="col-md-6 col-lg-6 col-xl-6 w-100 mt-0">
               <input
                 type="text"
-                class="px-3 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
                 placeholder="eg. Computer Science, FMCG, Logistics"
                 required
               />
@@ -72,7 +76,7 @@
             </p>
             <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="px-3 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
               >
                 <option value="" class="" disabled selected
                   >Select Course</option
@@ -87,7 +91,7 @@
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="px-3 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
               >
                 <option value="" class="" disabled selected
                   >Specialization</option
@@ -102,7 +106,7 @@
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="px-3 input-border-pink py-2 select-height-45 w-100"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
               >
                 <option value="" class="" disabled selected
                   >Completion year</option
@@ -118,7 +122,7 @@
           <div class="row">
             <div class="col-md-8 col-lg-8 col-xl-8 w-100 ">
               <select
-                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100"
+                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
               >
                 <option value="" class="" disabled selected
                   >College Name</option
@@ -131,7 +135,7 @@
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4 w-100">
               <select
-                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100"
+                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
               >
                 <option value="" class="" disabled selected
                   >Full/Part Time</option

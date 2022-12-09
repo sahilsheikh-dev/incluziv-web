@@ -9,7 +9,7 @@
           <div class="user-details">
             <p class="fw-bold mb-2">Current Location</p>
             <select
-              class="mb-4 py-2 select-height-45 px-3 input-border-pink w-100"
+              class="mb-4 py-2 select-height-45 px-3 input-border-pink w-100 bg-light"
             >
               <option disabled selected>eg. Bangalore</option>
               <option value="Nagpur">Nagpur</option>
@@ -101,7 +101,7 @@
             <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <span class="details fw-bold">What is your notice period?</span>
               <select
-                class="mt-2 mb-2 input-border-pink px-3 py-2 select-height-45 w-100"
+                class="mt-2 mb-2 input-border-pink px-3 py-2 select-height-45 w-100 bg-light"
               >
                 <option value="1 Months" selected>1 months</option>
                 <option value="2 Months">2 Months</option>
@@ -113,7 +113,7 @@
               <span class="fw-bold">Last working day</span>
               <input
                 type="text"
-                class="mt-2 text-center input-border-pink px-3 py-2 select-height-45 w-100"
+                class="mt-2 text-center input-border-pink px-3 py-2 select-height-45 w-100 bg-light"
                 placeholder="eg. 3rd October"
                 required
               />

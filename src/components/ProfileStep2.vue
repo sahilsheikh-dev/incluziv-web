@@ -23,34 +23,44 @@
             <p class="details fw-bold mb-2">
               How many years of experience do you have?(Do include intership)
             </p>
-            <div class="col input-group w-100 px-0" style="max-width: 500px;">
-              <input
-                type="text"
-                class="form-control border border-danger rounded-0 py-2 px-3"
-                placeholder="eg.4"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
-              />
-              <div class="input-group-append">
-                <span
-                  class="input-group-text bg-danger border rounded-0 text-light py-2"
-                  id="basic-addon2"
-                  >Years</span
-                >
+            <div class="row">
+              <div
+                class="col-md-6 col-lg-6 col-xl-6 input-group w-100 px-0"
+                style="max-width: 500px;"
+              >
+                <input
+                  type="text"
+                  class="form-control border border-danger rounded-0 py-2 px-3"
+                  placeholder="eg.4"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+                <div class="input-group-append">
+                  <span
+                    class="input-group-text bg-danger border rounded-0 text-light py-2"
+                    id="basic-addon2"
+                    >Years</span
+                  >
+                </div>
               </div>
             </div>
-            <div class="col input-group w-100 px-0" style="max-width: 500px;">
-              <input
-                type="text"
-                class="form-control border-danger rounded-0 py-2 px-3"
-                placeholder="Carrer break(if any)"
-              />
-              <div class="input-group-append">
-                <span
-                  class="input-group-text bg-danger rounded-0 text-light py-2"
-                  id="basic-addon2"
-                  >Years</span
-                >
+            <div class="row">
+              <div
+                class="col-md-6 col-lg-6 col-xl-6 input-group w-100 px-0"
+                style="max-width: 500px;"
+              >
+                <input
+                  type="text"
+                  class="form-control border-danger rounded-0 py-2 px-3"
+                  placeholder="Carrer break(if any)"
+                />
+                <div class="input-group-append">
+                  <span
+                    class="input-group-text bg-danger rounded-0 text-light py-2"
+                    id="basic-addon2"
+                    >Years</span
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -62,7 +72,7 @@
               <div class="col-md-6 col-lg-6 col-xl-6">
                 <input
                   type="text"
-                  class="text-center input-border-pink w-100 py-2"
+                  class="text-center input-border-pink w-100 py-2 bg-light"
                   placeholder="e.g. Java, Python, C++, etc."
                   required
                 />
@@ -86,7 +96,7 @@
               <div class="col-md-6 col-lg-6 col-xl-6">
                 <input
                   type="text"
-                  class="text-center input-border-pink w-100 py-2"
+                  class="text-center input-border-pink w-100 py-2 bg-light"
                   placeholder="e.g. Java, Python, C++, etc."
                   required
                 />
@@ -110,7 +120,7 @@
               <div class="col-md-6 col-lg-6 col-xl-6">
                 <input
                   type="text"
-                  class="text-center input-border-pink w-100 py-2"
+                  class="text-center input-border-pink w-100 py-2 bg-light"
                   placeholder="e.g. Java, Python, C++, etc."
                   required
                 />

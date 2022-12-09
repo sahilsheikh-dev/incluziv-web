@@ -7,16 +7,28 @@
       <div class="content">
         <form action="#">
           <div class="upload">
-            <p class="fw-bold">Add your profile photo(optional)</p>
-            <input type="file" id="selectedFile" style="display: none" />
-            <input
-              type="image"
-              value="Browse"
-              onclick="document.getElementById('selectedFile').click();"
-            />
+            <div class="row mt-4">
+              <div class="col-auto">
+                <input type="file" id="selectedFile" style="display: none" />
+                <button
+                  onclick="document.getElementById('selectedFile').click();"
+                >
+                  <img
+                    class="img-fluid"
+                    src="../assets/img/profile-icon.png"
+                    style="border: 1px solid rgb(237, 62, 97) !important; max-width: 70px;"
+                    alt="logo"
+                  />
+                </button>
+              </div>
+              <div class="col-7">
+                <p class="fw-bold mb-0">Bhavik Arora</p>
+                <p class="mt-0">Add your profile photo(optional)</p>
+              </div>
+            </div>
           </div>
 
-          <div class="user-details row">
+          <div class="user-details row mt-0">
             <div class="col-md-6 col-lg-6 col-xl-6 mt-4 w-100">
               <p class="details fw-bold">Date of Birth</p>
               <input

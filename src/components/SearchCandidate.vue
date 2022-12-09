@@ -115,7 +115,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-6 col-xl-6">
+        <div
+          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+        >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Search Candidate
           </h2>
@@ -177,7 +179,7 @@
               </div>
               <div class="user-details row">
                 <p class="details fw-bold mt-3 mb-0">Experience</p>
-                <div class="col-md-6 col-lg-6 col-xl-6 w-100">
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
                   <div
                     class="col input-group w-100 px-0 mt-0 py-0"
                     style="max-width: 500px;"
@@ -202,7 +204,15 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 w-100">
+                <div class="col-md-2 col-lg-2 col-xl-2 w-100 text-center">
+                  <p
+                    class="fw-bold text-center pt-2"
+                    style="color: rgb(237, 62, 97) !important;"
+                  >
+                    to
+                  </p>
+                </div>
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
                   <div
                     class="col input-group w-100 px-0 mt-0 py-0"
                     style="max-width: 500px;"
@@ -329,7 +339,7 @@
               </div>
               <div class="user-details row">
                 <p class="details fw-bold mt-3 mb-0">Annual Salary</p>
-                <div class="col-md-6 col-lg-6 col-xl-6 w-100">
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
                   <div
                     class="col input-group w-100 px-0 mt-0 py-0"
                     style="max-width: 500px;"
@@ -354,7 +364,15 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 w-100">
+                <div class="col-md-2 col-lg-2 col-xl-2 w-100 text-center">
+                  <p
+                    class="fw-bold text-center pt-2"
+                    style="color: rgb(237, 62, 97) !important;"
+                  >
+                    to
+                  </p>
+                </div>
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
                   <div
                     class="col input-group w-100 px-0 mt-0 py-0"
                     style="max-width: 500px;"
