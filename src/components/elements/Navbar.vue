@@ -188,7 +188,7 @@
           <li class="nav-item">
             <a
               class="nav-link active mx-3 btn text-light px-3 btn-hover-pink"
-              href="#/candidateSignin"
+              href="#/candidateSignup"
               style="background-color: #f33164; border-radius: 0;"
               >SIGN IN/SIGN UP</a
             >

@@ -1,10 +1,10 @@
 <template>
-  <section class="recent-jobs-section py-5 my-5">
+  <section class="recent-jobs-section py-3 my-5">
     <div class="py-5 container">
-      <p class="text-primary mb-0" style="font-size: 14px;">
+      <!-- <p class="mb-0 fw-bold" style="font-size: 18px; color: #28B7B6;">
         JOBS
-      </p>
-      <h1 class="text-dark fw-bold mt-0 mb-5">Recent Jobs</h1>
+      </p> -->
+      <h1 class="text-dark fw-bold mt-0 mb-3">Recent Jobs</h1>
       <div class="row my-3 py-4">
         <div class="col-md-4 col-lg-4 col-xl-4">
           <div
@@ -25,7 +25,7 @@
             </p>
             <button
               class="btn px-4 btn-hover-white"
-              style="border: 2px solid #c7d3ff; border-radius: 20px;"
+              style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important;"
             >
               EXPLORE
             </button>
@@ -50,7 +50,7 @@
             </p>
             <button
               class="btn px-4 btn-hover-white"
-              style="border: 2px solid #c7d3ff; border-radius: 20px;"
+              style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important;"
             >
               EXPLORE
             </button>
@@ -75,7 +75,7 @@
             </p>
             <button
               class="btn px-4 btn-hover-white"
-              style="border: 2px solid #c7d3ff; border-radius: 20px;"
+              style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important;"
             >
               EXPLORE
             </button>
@@ -100,7 +100,7 @@
             </p>
             <button
               class="btn px-4 btn-hover-white"
-              style="border: 2px solid #c7d3ff; border-radius: 20px;"
+              style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important;"
             >
               EXPLORE
             </button>
@@ -125,7 +125,7 @@
             </p>
             <button
               class="btn px-4 btn-hover-white"
-              style="border: 2px solid #c7d3ff; border-radius: 20px;"
+              style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important;"
             >
               EXPLORE
             </button>
@@ -150,7 +150,7 @@
             </p>
             <button
               class="btn px-4 btn-hover-white"
-              style="border: 2px solid #c7d3ff; border-radius: 20px;"
+              style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important;"
             >
               EXPLORE
             </button>
@@ -159,8 +159,8 @@
       </div>
       <div class="text-center">
         <button
-          class="btn px-5 mt-3 bg-primary text-light btn-hover-blue"
-          style="border: 2px solid #c7d3ff; border-radius: 20px;"
+          class="btn px-5 mt-3 fw-bold text-light btn-hover-blue"
+          style="border: 2px solid #c7d3ff; border-radius: 20px; font-size: 14px !important; background: #b1bfff; color: #172e84 !important;"
           type="submit"
         >
           &nbsp;&nbsp;&nbsp;FIND MORE &nbsp;&nbsp;&nbsp;

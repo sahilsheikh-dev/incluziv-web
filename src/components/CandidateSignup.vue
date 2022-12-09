@@ -1,5 +1,5 @@
 <template>
-  <div class="hello py-5 signin-bg">
+  <div class="hello py-5 signup-bg">
     <div class="d-flex align-items-center" style="min-height: 100vh;">
       <div class="container text-center">
         <p class="text-primary mb-0" style="font-size: 14px;">
@@ -15,6 +15,13 @@
             required
             type="text"
             class="form-control p-3 px-5 input-box mb-3"
+            id="fullname"
+            placeholder="Full Name"
+          />
+          <input
+            required
+            type="text"
+            class="form-control p-3 px-5 input-box mb-3"
             id="username"
             placeholder="Username"
           />
@@ -26,12 +33,12 @@
             placeholder="Password"
           />
           <!-- <button
-              type="submit"
-              class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
-              id="loginsubmit"
-            >
-              Agree & Continue
-            </button> -->
+            type="submit"
+            class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
+            id="loginsubmit"
+          >
+            Agree & Continue
+          </button> -->
           <a
             class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
             id="loginsubmit"
@@ -64,6 +71,15 @@
               Login with Google
             </button>
           </div>
+        </div>
+        <div class="mt-5 mx-auto" style="max-width: 400px;">
+          <a
+            type="submit"
+            class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-0 text-light bg-primary submit-btn text-decoration-none btn-hover-blue"
+            href="#/recruiterSignup"
+          >
+            RECRUITER SIGNUP
+          </a>
         </div>
       </div>
     </div>

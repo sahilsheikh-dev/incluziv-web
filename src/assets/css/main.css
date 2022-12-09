@@ -28,18 +28,25 @@ input {
   border-radius: 50px !important;
   font-weight: 600;
   margin-top: -11px;
+  color: #4f64b3 !important;
+}
+
+.search-select option {
+  color: #000000 !important;
 }
 
 .search-btn {
   height: 40px !important;
-  background-image: linear-gradient(
+  background: #b1bfff;
+  color: #172e84 !important;
+  /* background-image: linear-gradient(
     to right,
     #172e84,
     #172e84,
     #172e84,
     #ffffff
-  );
-  border: 1px solid #355df3;
+  ); */
+  /* border: 1px solid #355df3; */
   border-radius: 50px !important;
   font-weight: 600;
   margin-top: -11px;
@@ -139,9 +146,18 @@ input {
   background-position: center;
 }
 
+.signin-bg {
+  min-height: 100vh;
+  background-image: url("../img/sign-in.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .profile-step {
   min-height: 100vh;
-  background-image: url("../img/background.jpg");
+  /* background-image: url("../img/background.jpg"); */
+  background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -292,7 +308,7 @@ input:focus {
 
 @media (max-width: 959px) {
   .card-height {
-    height: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 584px) {
@@ -317,7 +333,11 @@ input:focus {
   .signup-bg {
     background-image: url("../img/sign-up.png");
   }
+  .signin-bg {
+    background-image: url("../img/sign-in.png");
+  }
   .profile-step {
+    /* background-image: url("../img/background.jpg"); */
     background-image: url("../img/new-background.png");
   }
   .jobsearch {

@@ -1,11 +1,11 @@
 <template>
-  <section class="testinomial-section py-5 my-5">
-    <div class="py-5 container">
+  <section class="testinomial-section pt-5 mt-5">
+    <div class="pt-5 container">
       <div class="row">
         <div
           class="col-md-4 col-lg-4 col-xl-4 text-center text-md-start text-lg-start text-xl-start"
         >
-          <p class="text-primary mb-0" style="font-size: 14px;">
+          <p class="mb-0 mt-3" style="font-size: 18px; color: #28B7B6;">
             CLIENTS TESTIMONIALS
           </p>
           <h1 class="text-dark fw-bold mt-0 mb-3">

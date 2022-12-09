@@ -1,7 +1,7 @@
 <template>
-  <section class="search-preference-section py-5 my-5">
+  <section class="search-preference-section py-3 my-5">
     <div class="py-5">
-      <p class="text-primary mb-0" style="font-size: 14px;">
+      <p class="mb-0 fw-bold" style="font-size: 18px; color: #28B7B6;">
         JOB SEARCH
       </p>
       <h1 class="text-dark fw-bold mt-0 mb-5">Search By Preference</h1>
@@ -89,7 +89,7 @@
           class="col-4 col-md-2 col-lg-2 col-xl-2 offset-md-1 offset-lg-1 offset-xl-1"
         >
           <img
-            class="image-thumbnail w-50"
+            class="image-thumbnail w-75"
             src="../../assets/img/diversity-1.png"
             alt="logo"
           />
@@ -97,7 +97,7 @@
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
-            class="image-thumbnail w-50"
+            class="image-thumbnail w-75"
             src="../../assets/img/diversity-2.png"
             alt="logo"
           />
@@ -105,7 +105,7 @@
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
-            class="image-thumbnail w-50"
+            class="image-thumbnail w-75"
             src="../../assets/img/diversity-3.png"
             alt="logo"
           />
@@ -113,7 +113,7 @@
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
-            class="image-thumbnail w-50"
+            class="image-thumbnail w-75"
             src="../../assets/img/diversity-4.png"
             alt="logo"
           />
@@ -121,7 +121,7 @@
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
-            class="image-thumbnail w-50"
+            class="image-thumbnail w-75"
             src="../../assets/img/diversity-5.png"
             alt="logo"
           />

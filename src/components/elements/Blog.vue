@@ -1,10 +1,10 @@
 <template>
   <section class="blog-section py-5 my-5">
     <div class="py-5 container">
-      <p class="text-primary mb-0" style="font-size: 14px;">
+      <!-- <p class="mb-0 fw-bold" style="font-size: 18px; color: #28B7B6;">
         CONTENT
-      </p>
-      <h1 class="text-dark fw-bold mt-0 mb-5">Blogs & Newsletters</h1>
+      </p> -->
+      <h1 class="text-dark fw-bold pt-5 mt-5 mb-5">Blogs & Newsletters</h1>
       <div class="my-3">
         <button
           id="blog-toggle"
@@ -168,8 +168,12 @@ export default {
       document.getElementById("blog-toggle").classList.remove("text-secondary");
       document.getElementById("blog-toggle").classList.add("text-primary");
 
-      document.getElementById("newsletter-toggle").classList.remove("text-primary");
-      document.getElementById("newsletter-toggle").classList.add("text-secondary");
+      document
+        .getElementById("newsletter-toggle")
+        .classList.remove("text-primary");
+      document
+        .getElementById("newsletter-toggle")
+        .classList.add("text-secondary");
       console.log(currentSetion);
     },
     currentSetionNews: function() {
@@ -181,8 +185,12 @@ export default {
       document.getElementById("blog").classList.remove("d-blovk");
       document.getElementById("blog").classList.add("d-none");
 
-      document.getElementById("newsletter-toggle").classList.remove("text-secondary");
-      document.getElementById("newsletter-toggle").classList.add("text-primary");
+      document
+        .getElementById("newsletter-toggle")
+        .classList.remove("text-secondary");
+      document
+        .getElementById("newsletter-toggle")
+        .classList.add("text-primary");
 
       document.getElementById("blog-toggle").classList.remove("text-primary");
       document.getElementById("blog-toggle").classList.add("text-secondary");
