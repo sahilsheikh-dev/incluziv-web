@@ -398,14 +398,96 @@
                   </div>
                 </div>
               </div>
+              <hr />
+              <p
+                class="text-md-start text-lg-start text-xl-start fw-bold"
+                style="color: rgb(237, 62, 97);"
+              >
+                Employment Details
+              </p>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Functional Area</p>
+                  <input
+                    type="text"
+                    class="x input-border-pink p-2 px-3 w-100"
+                    placeholder="+ Add Functional Area"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Industry</p>
+                  <input
+                    type="text"
+                    class="x input-border-pink p-2 px-3 w-100"
+                    placeholder="+ Add Industry"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Company</p>
+                  <input
+                    type="text"
+                    class="x input-border-pink p-2 px-3 w-100"
+                    placeholder="+ Add Company (, seperated)"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Designation</p>
+                  <input
+                    type="text"
+                    class="x input-border-pink p-2 px-3 w-100"
+                    placeholder="+ Add Designation"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="user-details row mt-2">
+                <p class="details fw-bold mt-4 mb-0">
+                  Notice Period / Availability to Join
+                  <i class="bi bi-question-circle guideline-text"></i>
+                </p>
+                <div class="col-md-6 col-lg-6 col-xl-6 w-100">
+                  <div
+                    class="col input-group w-100 px-0 mt-0 py-0"
+                    style="max-width: 500px;"
+                  >
+                    <select
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
+                    >
+                      <option class="text-start" disabled selected
+                        >eg. 15</option
+                      >
+                      <option value="10">10</option>
+                      <option value="20">20</option>
+                      <option value="30">30</option>
+                      <option value="40">40</option>
+                    </select>
+                    <div class="input-group-append w-25 input-border-pink">
+                      <span
+                        class="input-group-text bg-danger rounded-0 text-light py-2"
+                        id="basic-addon2"
+                        >Days</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <div class="button">
                 <!-- <input type="submit" value="Next" /> -->
                 <a
                   class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
                   style="background-color: rgb(237, 62, 97); border-radius: 0;"
-                  href="/#/searchCandidateEmploymentDetails"
-                  >Next</a
+                  href="#/recruiterDashboard"
+                  >Post</a
                 >
               </div>
             </form>
