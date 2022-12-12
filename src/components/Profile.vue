@@ -6,12 +6,13 @@
         <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
           Profile
         </h2>
-        <p
-          class="text-md-start text-lg-start text-xl-start fw-bold"
+        <a
+          class="text-md-start text-lg-start text-xl-start fw-bold text-decoration-none"
+          href="/#/settings"
           style="color: rgb(237, 62, 97);"
         >
           Update your profile settings here!
-        </p>
+        </a>
         <hr />
         <div class="personal-details text-center my-3 py-3">
           <img

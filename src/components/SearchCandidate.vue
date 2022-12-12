@@ -481,13 +481,471 @@
                 </div>
               </div>
 
+              <hr />
+              <p
+                class="text-md-start text-lg-start text-xl-start fw-bold"
+                style="color: rgb(237, 62, 97);"
+              >
+                Education Details
+              </p>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">UG Qualification</p>
+                  <div class="row">
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="ug-qualification"
+                        id="any-ug-qualification"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="any-ug-qualification"
+                        >Any UG Qualification</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="ug-qualification"
+                        id="specific-ug-qualification"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="specific-ug-qualification"
+                        >Specific UG Qualification</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="ug-qualification"
+                        id="no-ug-qualification"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="no-ug-qualification"
+                        >No UG Qualification</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">PG Qualification</p>
+                  <div class="row">
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="pg-qualification"
+                        id="any-pg-qualification"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="any-pg-qualification"
+                        >Any PG Qualification</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="pg-qualification"
+                        id="specific-pg-qualification"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="specific-pg-qualification"
+                        >Specific PG Qualification</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="pg-qualification"
+                        id="no-pg-qualification"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="no-pg-qualification"
+                        >No PG Qualification</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+              <p
+                class="text-md-start text-lg-start text-xl-start fw-bold"
+                style="color: rgb(237, 62, 97);"
+              >
+                Diversity Details
+              </p>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Gender</p>
+                  <div class="row">
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="gender"
+                        id="all"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="all"
+                        >All Candidates</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="gender"
+                        id="male"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="male"
+                        >Male Candidates</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="gender"
+                        id="female"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="female"
+                        >Female Candidates</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Candidate Category</p>
+                  <input
+                    type="text"
+                    class="x input-border-pink p-2 px-3 w-100"
+                    placeholder="Add Candidate Category"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="user-details row">
+                <p class="details fw-bold mt-3 mb-0">Candidate Age</p>
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
+                  <div
+                    class="col input-group w-100 px-0 mt-0 py-0"
+                    style="max-width: 500px;"
+                  >
+                    <select
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
+                    >
+                      <option class="text-start" disabled selected
+                        >Min Age</option
+                      >
+                      <option value="1">18</option>
+                      <option value="2">20</option>
+                      <option value="3">30</option>
+                      <option value="4">40</option>
+                    </select>
+                    <div class="input-group-append w-25">
+                      <span
+                        class="input-group-text bg-danger rounded-0 text-light py-2"
+                        id="basic-addon2"
+                        >Years</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 w-100 text-center">
+                  <p
+                    class="fw-bold text-center pt-2"
+                    style="color: rgb(237, 62, 97) !important;"
+                  >
+                    to
+                  </p>
+                </div>
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
+                  <div
+                    class="col input-group w-100 px-0 mt-0 py-0"
+                    style="max-width: 500px;"
+                  >
+                    <select
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
+                    >
+                      <option class="text-start" disabled selected
+                        >Max Age</option
+                      >
+                      <option value="1">19</option>
+                      <option value="2">20</option>
+                      <option value="3">30</option>
+                      <option value="4">40</option>
+                    </select>
+                    <div class="input-group-append w-25">
+                      <span
+                        class="input-group-text bg-danger rounded-0 text-light py-2"
+                        id="basic-addon2"
+                        >Years</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+              <p
+                class="text-md-start text-lg-start text-xl-start fw-bold"
+                style="color: rgb(237, 62, 97);"
+              >
+                Work Details
+              </p>
+              <div class="user-details row">
+                <p class="details fw-bold mt-3 mb-0">Show Candidate Seeking</p>
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
+                  <div
+                    class="col input-group w-100 px-0 mt-0 py-0"
+                    style="max-width: 500px;"
+                  >
+                    <select
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
+                    >
+                      <option class="text-start" disabled selected
+                        >Job Type</option
+                      >
+                      <option value="1">Type 1</option>
+                      <option value="2">Type 2</option>
+                      <option value="3">Type 3</option>
+                      <option value="4">Type 4</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-5 col-lg-5 col-xl-5 w-100">
+                  <div
+                    class="col input-group w-100 px-0 mt-0 py-0"
+                    style="max-width: 500px;"
+                  >
+                    <select
+                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
+                    >
+                      <option class="text-start" disabled selected
+                        >Employment Type</option
+                      >
+                      <option value="1">Type 1</option>
+                      <option value="2">Type 2</option>
+                      <option value="3">Type 3</option>
+                      <option value="4">Type 4</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Work Permit For</p>
+                  <div class="input-group w-100 px-0 mt-0 py-0">
+                    <select
+                      class="x input-border-pink p-2 px-3 select-height-45 w-100"
+                    >
+                      <option class="text-start" disabled selected
+                        >Choose Category</option
+                      >
+                      <option value="1">Type 1</option>
+                      <option value="2">Type 2</option>
+                      <option value="3">Type 3</option>
+                      <option value="4">Type 4</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+              <p
+                class="text-md-start text-lg-start text-xl-start fw-bold"
+                style="color: rgb(237, 62, 97);"
+              >
+                Display Details
+              </p>
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Show</p>
+                  <div class="row">
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="show"
+                        id="all-candidates"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="all-candidates"
+                        >All Candidates</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="show"
+                        id="new-candidates"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="new-candidates"
+                        >New Candidates</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="show"
+                        id="modified-candidates"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="modified-candidates"
+                        >Modified Candidates</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="user-details">
+                <div class="mt-4 w-100">
+                  <p class="details fw-bold">Show only candidates with</p>
+                  <div class="row">
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="show-only-with"
+                        id="verified-mobile-number"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="verified-mobile-number"
+                        >Verified Mobile Number</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="show-only-with"
+                        id="verified-email"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="verified-email"
+                        >Verified Email</label
+                      >
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 col-xl-4 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="show-only-with"
+                        id="attached-resume"
+                        autocomplete="off"
+                      />
+                      <label
+                        class="btn btn-outline-danger"
+                        style="border-radius: 30px !important;"
+                        for="attached-resume"
+                        >Attached Resume</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div class="button">
                 <!-- <input type="submit" value="Next" /> -->
                 <a
                   class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
                   style="background-color: rgb(237, 62, 97); border-radius: 0;"
                   href="#/recruiterDashboard"
-                  >Post</a
+                  >Search Candidates</a
                 >
               </div>
             </form>

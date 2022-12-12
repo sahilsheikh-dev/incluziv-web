@@ -200,6 +200,14 @@ input {
   background: #ffffff;
 }
 
+.settings {
+  min-height: 100vh;
+  background-image: url("../img/new-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .profile {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
@@ -331,6 +339,16 @@ input:focus {
   margin: 0 100px !important;
 }
 
+.input-toggle {
+  border-color: rgb(237, 62, 97);
+  width: 60px;
+  height: 30px;
+}
+
+.input-toggle:checked {
+  background-color: rgb(237, 62, 97);
+}
+
 @media (max-width: 959px) {
   .card-height {
     min-height: 100%;
@@ -366,6 +384,9 @@ input:focus {
     background-image: url("../img/new-background.png");
   }
   .jobsearch {
+    background-image: url("../img/new-background.png");
+  }
+  .settings {
     background-image: url("../img/new-background.png");
   }
   .testinomial-section {
