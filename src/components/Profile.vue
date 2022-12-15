@@ -11,7 +11,7 @@
           href="/#/settings"
           style="color: rgb(237, 62, 97);"
         >
-          Update your profile settings here!
+          Update your profile settings here! <i class="bi bi-pencil-square"></i>
         </a>
         <hr />
         <div class="personal-details text-center my-3 py-3">
@@ -98,10 +98,10 @@
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2 mt-0">
                           <img
                             class="img img-thumbnail border border-radius border-dark rounded"
-                            src="../assets/logo.png"
+                            src="../assets/img/diversity-1.png"
                           />
                           <p
-                            style="font-size: 14px; font-weight: 600;"
+                            style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
                             female
@@ -110,10 +110,10 @@
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
                           <img
                             class="img img-thumbnail border border-radius border-dark rounded"
-                            src="../assets/logo.png"
+                            src="../assets/img/diversity-2.png"
                           />
                           <p
-                            style="font-size: 14px; font-weight: 600;"
+                            style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
                             Queen
@@ -122,10 +122,10 @@
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
                           <img
                             class="img img-thumbnail border border-radius border-dark rounded"
-                            src="../assets/logo.png"
+                            src="../assets/img/diversity-3.png"
                           />
                           <p
-                            style="font-size: 14px; font-weight: 600;"
+                            style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
                             Able
@@ -134,10 +134,10 @@
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
                           <img
                             class="img img-thumbnail border border-radius border-dark rounded"
-                            src="../assets/logo.png"
+                            src="../assets/img/diversity-4.png"
                           />
                           <p
-                            style="font-size: 14px; font-weight: 600;"
+                            style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
                             Veteran
@@ -146,10 +146,10 @@
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
                           <img
                             class="img img-thumbnail border border-radius border-dark rounded"
-                            src="../assets/logo.png"
+                            src="../assets/img/diversity-5.png"
                           />
                           <p
-                            style="font-size: 14px; font-weight: 600;"
+                            style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
                             Silvergen

@@ -344,17 +344,13 @@
                     class="col input-group w-100 px-0 mt-0 py-0"
                     style="max-width: 500px;"
                   >
-                    <select
-                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
-                    >
-                      <option class="text-start" disabled selected
-                        >Min Salary</option
-                      >
-                      <option value="5LPA">5LPA</option>
-                      <option value="10LPA">10LPA</option>
-                      <option value="18LPA">18LPA</option>
-                      <option value="50LPA">50LPA</option>
-                    </select>
+                    <input
+                      type="number"
+                      class="form-control x"
+                      style="border-radius: 0;"
+                      placeholder="Min Salary"
+                      required
+                    />
                     <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
@@ -377,17 +373,13 @@
                     class="col input-group w-100 px-0 mt-0 py-0"
                     style="max-width: 500px;"
                   >
-                    <select
-                      class="x input-border-pink p-2 px-3 select-height-45 w-75"
-                    >
-                      <option class="text-start" disabled selected
-                        >Max Salary</option
-                      >
-                      <option value="5LPA">5LPA</option>
-                      <option value="10LPA">10LPA</option>
-                      <option value="18LPA">18LPA</option>
-                      <option value="50LPA">50LPA</option>
-                    </select>
+                    <input
+                      type="number"
+                      class="form-control x"
+                      style="border-radius: 0;"
+                      placeholder="Max Salary (in lacs)"
+                      required
+                    />
                     <div class="input-group-append w-25">
                       <span
                         class="input-group-text bg-danger rounded-0 text-light py-2"
@@ -465,10 +457,12 @@
                       <option class="text-start" disabled selected
                         >eg. 15</option
                       >
-                      <option value="10">10</option>
-                      <option value="20">20</option>
-                      <option value="30">30</option>
-                      <option value="40">40</option>
+                      <option value="10">Serving Notice</option>
+                      <option value="10">15 Days</option>
+                      <option value="10">30 Days</option>
+                      <option value="10">45 Days</option>
+                      <option value="10">60 Days</option>
+                      <option value="10">90 Days</option>
                     </select>
                     <div class="input-group-append w-25 input-border-pink">
                       <span
@@ -490,6 +484,26 @@
               </p>
               <div class="user-details">
                 <div class="mt-4 w-100">
+                  <p class="details fw-bold">Basic Education</p>
+                  <div class="row">
+                    <div
+                      class="col-md-6 col-lg-6 col-xl-6 text-start text-md-center text-lg-center text-xl-center"
+                    >
+                      <select
+                        class="mb-0 px-3 input-border-pink w-100 py-2 select-height-45 bg-light"
+                      >
+                        <option value="" class="" disabled selected
+                          >Select</option
+                        >
+                        <option value="UG">Under Graduate</option>
+                        <option value="4+ Years">Post Graduate</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="user-details">
+                <div class="mt-4 w-100">
                   <p class="details fw-bold">UG Qualification</p>
                   <div class="row">
                     <div
@@ -504,7 +518,7 @@
                         checked
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="any-ug-qualification"
                         >Any UG Qualification</label
@@ -521,7 +535,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="specific-ug-qualification"
                         >Specific UG Qualification</label
@@ -538,7 +552,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="no-ug-qualification"
                         >No UG Qualification</label
@@ -564,7 +578,7 @@
                         checked
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="any-pg-qualification"
                         >Any PG Qualification</label
@@ -581,7 +595,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="specific-pg-qualification"
                         >Specific PG Qualification</label
@@ -598,7 +612,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="no-pg-qualification"
                         >No PG Qualification</label
@@ -607,8 +621,7 @@
                   </div>
                 </div>
               </div>
-
-              <hr />
+              <!-- <hr />
               <p
                 class="text-md-start text-lg-start text-xl-start fw-bold"
                 style="color: rgb(237, 62, 97);"
@@ -631,7 +644,7 @@
                         checked
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="all"
                         >All Candidates</label
@@ -648,7 +661,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="male"
                         >Male Candidates</label
@@ -665,7 +678,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="female"
                         >Female Candidates</label
@@ -684,7 +697,7 @@
                     required
                   />
                 </div>
-              </div>
+              </div> -->
               <div class="user-details row">
                 <p class="details fw-bold mt-3 mb-0">Candidate Age</p>
                 <div class="col-md-5 col-lg-5 col-xl-5 w-100">
@@ -767,10 +780,9 @@
                       <option class="text-start" disabled selected
                         >Job Type</option
                       >
-                      <option value="1">Type 1</option>
-                      <option value="2">Type 2</option>
-                      <option value="3">Type 3</option>
-                      <option value="4">Type 4</option>
+                      <option value="1">Work From Home</option>
+                      <option value="1">Work From Office</option>
+                      <option value="1">Hybrid</option>
                     </select>
                   </div>
                 </div>
@@ -785,10 +797,9 @@
                       <option class="text-start" disabled selected
                         >Employment Type</option
                       >
-                      <option value="1">Type 1</option>
-                      <option value="2">Type 2</option>
-                      <option value="3">Type 3</option>
-                      <option value="4">Type 4</option>
+                      <option value="1">Full Time</option>
+                      <option value="2">Part Time</option>
+                      <option value="3">Contractual</option>
                     </select>
                   </div>
                 </div>
@@ -835,7 +846,7 @@
                         checked
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="all-candidates"
                         >All Candidates</label
@@ -852,7 +863,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="new-candidates"
                         >New Candidates</label
@@ -869,7 +880,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="modified-candidates"
                         >Modified Candidates</label
@@ -895,7 +906,7 @@
                         checked
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="verified-mobile-number"
                         >Verified Mobile Number</label
@@ -912,7 +923,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="verified-email"
                         >Verified Email</label
@@ -929,7 +940,7 @@
                         autocomplete="off"
                       />
                       <label
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-danger w-100"
                         style="border-radius: 30px !important;"
                         for="attached-resume"
                         >Attached Resume</label

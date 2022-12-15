@@ -29,7 +29,7 @@
           </div>
 
           <div class="user-details row mt-0">
-            <div class="col-md-6 col-lg-6 col-xl-6 mt-4 w-100">
+            <div class="col-md-6 col-lg-6 col-xl-6 mt-4 w-100 px-0">
               <p class="details fw-bold">Date of Birth</p>
               <input
                 type="date"

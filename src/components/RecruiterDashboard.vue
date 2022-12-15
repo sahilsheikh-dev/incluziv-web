@@ -97,7 +97,7 @@
                       >
                         10
                       </h4>
-                      <p class="my-1">
+                      <p class="my-1" style="font-size: 12px;">
                         Active Jobs
                       </p>
                       <img
@@ -116,7 +116,9 @@
                       >
                         368
                       </h4>
-                      <p class="my-1">New Applications</p>
+                      <p class="my-1" style="font-size: 12px;">
+                        New Applications
+                      </p>
                       <img
                         class="img-fluid my-2"
                         style="max-width: 70px;"
@@ -131,7 +133,7 @@
                       >
                         554
                       </h4>
-                      <p class="my-1">
+                      <p class="my-1" style="font-size: 12px;">
                         Pending
                         <br class="d-block d-md-none d-lg-none d-xl-none" />
                         Rewives
@@ -150,7 +152,7 @@
                       >
                         52
                       </h4>
-                      <p class="my-1">
+                      <p class="my-1" style="font-size: 12px;">
                         Shortlisted
                         <br class="d-block d-md-none d-lg-none d-xl-none" />
                         Candidate

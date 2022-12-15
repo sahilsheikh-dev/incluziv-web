@@ -55,12 +55,12 @@
                 href="/#/jobsearch"
                 >Find Jobs</a
               >
-              <a
+              <!-- <a
                 class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"
                 href="/#/inbox"
                 >Inbox</a
-              >
+              > -->
               <a
                 class="dropdown-item fw-bold mb-3 bg-hover-pink"
                 style="font-size: 16px;"

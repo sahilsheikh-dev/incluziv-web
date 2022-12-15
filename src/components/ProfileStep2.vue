@@ -25,15 +25,13 @@
             </p>
             <div class="row">
               <div
-                class="col-md-6 col-lg-6 col-xl-6 input-group w-100 px-0"
+                class="col-md-6 col-lg-6 col-xl-6 input-group"
                 style="max-width: 500px;"
               >
                 <input
                   type="text"
                   class="form-control border border-danger rounded-0 py-2 px-3"
                   placeholder="eg.4"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
                 />
                 <div class="input-group-append">
                   <span
@@ -46,7 +44,7 @@
             </div>
             <div class="row">
               <div
-                class="col-md-6 col-lg-6 col-xl-6 input-group w-100 px-0"
+                class="col-md-6 col-lg-6 col-xl-6 input-group"
                 style="max-width: 500px;"
               >
                 <input
@@ -78,17 +76,12 @@
                 />
               </div>
               <div class="col-md-6 col-lg-6 col-xl-6">
-                <select
-                  class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                >
-                  <option value="" class="text-center" disabled selected
-                    >Years of experience</option
-                  >
-                  <option value="1">2</option>
-                  <option value="2">4</option>
-                  <option value="3">8</option>
-                  <option value="4">10</option>
-                </select>
+                <input
+                  type="number"
+                  class="text-center input-border-pink w-100 py-2 bg-light"
+                  placeholder="Years of experience"
+                  required
+                />
               </div>
             </div>
 
@@ -102,17 +95,12 @@
                 />
               </div>
               <div class="col-md-6 col-lg-6 col-xl-6">
-                <select
-                  class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                >
-                  <option value="" class="text-center" disabled selected
-                    >Years of experience</option
-                  >
-                  <option value="1">2</option>
-                  <option value="2">4</option>
-                  <option value="3">8</option>
-                  <option value="4">10</option>
-                </select>
+                <input
+                  type="number"
+                  class="text-center input-border-pink w-100 py-2 bg-light"
+                  placeholder="Years of experience"
+                  required
+                />
               </div>
             </div>
 
@@ -126,17 +114,12 @@
                 />
               </div>
               <div class="col-md-6 col-lg-6 col-xl-6">
-                <select
-                  class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                >
-                  <option value="" class="text-center" disabled selected
-                    >Years of experience</option
-                  >
-                  <option value="1">2</option>
-                  <option value="2">4</option>
-                  <option value="3">8</option>
-                  <option value="4">10</option>
-                </select>
+                <input
+                  type="number"
+                  class="text-center input-border-pink w-100 py-2 bg-light"
+                  placeholder="Years of experience"
+                  required
+                />
               </div>
             </div>
           </div>

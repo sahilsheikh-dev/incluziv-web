@@ -29,7 +29,9 @@
             </div>
           </div>
         </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x">
+        <div
+          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+        >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Targeting
           </h2>
@@ -38,7 +40,7 @@
             class="text-md-start text-lg-start text-xl-start fw-bold"
             style="color: rgb(237, 62, 97);"
           >
-            Mode Details
+            More Details
           </p>
           <div class="jobs-form">
             <form action="#" class="text-start">
@@ -48,7 +50,7 @@
                   <input
                     type="text"
                     class="x input-border-pink p-2 px-3 w-100"
-                    placeholder="+ Add Compeny industry (, seperated)"
+                    placeholder="+ Add Company industry (, seperated)"
                     required
                   />
                 </div>
@@ -147,59 +149,43 @@
               <div class="user-details row">
                 <p class="details fw-bold mt-3 mb-0">Annual Salary</p>
                 <div class="col-md-6 col-lg-6 col-xl-6 mt-0 w-100">
-                  <select
-                    class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                  >
-                    <option class="text-start" disabled selected
-                      >Select Min (in lacs)</option
-                    >
-                    <option value="1">12</option>
-                    <option value="2">14</option>
-                    <option value="3">18</option>
-                    <option value="4">30</option>
-                  </select>
+                  <input
+                    type="number"
+                    class="form-control x"
+                    style="border-radius: 0;"
+                    placeholder="Min (in lacs)"
+                    required
+                  />
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 mt-0 w-100">
-                  <select
-                    class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                  >
-                    <option class="text-start" disabled selected
-                      >Select Max (in lacs)</option
-                    >
-                    <option value="1">12</option>
-                    <option value="2">14</option>
-                    <option value="3">18</option>
-                    <option value="4">30</option>
-                  </select>
+                  <input
+                    type="number"
+                    class="form-control x"
+                    style="border-radius: 0;"
+                    placeholder="Max (in lacs)"
+                    required
+                  />
                 </div>
               </div>
               <div class="user-details row">
                 <p class="details fw-bold mt-3 mb-0">Graduting Year</p>
                 <div class="col-md-6 col-lg-6 col-xl-6 mt-0 w-100">
-                  <select
-                    class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                  >
-                    <option class="text-start" disabled selected
-                      >Min batch</option
-                    >
-                    <option value="1">2</option>
-                    <option value="2">4</option>
-                    <option value="3">8</option>
-                    <option value="4">10</option>
-                  </select>
+                  <input
+                    type="number"
+                    class="form-control x"
+                    style="border-radius: 0;"
+                    placeholder="Min Batch"
+                    required
+                  />
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 mt-0 w-100">
-                  <select
-                    class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                  >
-                    <option class="text-start" disabled selected
-                      >Max Batch</option
-                    >
-                    <option value="1">2</option>
-                    <option value="2">4</option>
-                    <option value="3">8</option>
-                    <option value="4">10</option>
-                  </select>
+                  <input
+                    type="number"
+                    class="form-control x"
+                    style="border-radius: 0;"
+                    placeholder="Max Batch"
+                    required
+                  />
                 </div>
               </div>
               <div class="mt-4">

@@ -1,7 +1,7 @@
 .hero-section {
   background-image: url("../img/herobg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   padding: 50px;
   height: 80vh;
@@ -18,7 +18,7 @@ input {
 .search-preference-section {
   background-image: url("../img/search.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -55,7 +55,7 @@ input {
 .recent-jobs-section {
   background-image: url("../img/jobboard.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -74,7 +74,7 @@ input {
 .testinomial-section {
   background-image: url("../img/testimonials.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -117,14 +117,14 @@ input {
 .blog-section {
   background-image: url("../img/blogs.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
 .contact-form-section {
   background-image: url("../img/contact.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -153,7 +153,7 @@ input {
 .footer {
   background-image: url("../img/footer.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   /* margin-top: -70px !important; */
   padding-top: 120px;
@@ -163,7 +163,7 @@ input {
   min-height: 100vh;
   background-image: url("../img/sign-up.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -171,7 +171,7 @@ input {
   min-height: 100vh;
   background-image: url("../img/sign-in.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -180,7 +180,7 @@ input {
   /* background-image: url("../img/background.jpg"); */
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -188,7 +188,7 @@ input {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -204,7 +204,7 @@ input {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -212,7 +212,7 @@ input {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -301,7 +301,7 @@ input:focus {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -309,7 +309,7 @@ input:focus {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -317,7 +317,7 @@ input:focus {
   min-height: 100vh;
   background-image: url("../img/new-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -345,8 +345,32 @@ input:focus {
   height: 30px;
 }
 
-.input-toggle:checked {
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
   background-color: rgb(237, 62, 97);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
 
 @media (max-width: 959px) {

@@ -72,7 +72,9 @@
             </div>
           </div>
         </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x">
+        <div
+          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+        >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Inbox
           </h2>
@@ -85,7 +87,7 @@
           <hr />
           <div class="jobs-list">
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -100,7 +102,7 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">TCS</h5>
-                  <p>
+                  <p style="font-size: 12px;">
                     We are intrested in your CV! Please confirm for the
                     interview...
                   </p>
@@ -109,14 +111,14 @@
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   REPLY
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -131,7 +133,7 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">TCS</h5>
-                  <p>
+                  <p style="font-size: 12px;">
                     We are intrested in your CV! Please confirm for the
                     interview...
                   </p>
@@ -140,14 +142,14 @@
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   REPLY
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -162,7 +164,7 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">TCS</h5>
-                  <p>
+                  <p style="font-size: 12px;">
                     We are intrested in your CV! Please confirm for the
                     interview...
                   </p>
@@ -171,14 +173,14 @@
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   REPLY
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -193,7 +195,7 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">TCS</h5>
-                  <p>
+                  <p style="font-size: 12px;">
                     We are intrested in your CV! Please confirm for the
                     interview...
                   </p>
@@ -202,14 +204,14 @@
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   REPLY
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -224,7 +226,7 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">TCS</h5>
-                  <p>
+                  <p style="font-size: 12px;">
                     We are intrested in your CV! Please confirm for the
                     interview...
                   </p>
@@ -233,7 +235,7 @@
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   REPLY
                 </button>

@@ -1,5 +1,5 @@
 <template>
-  <section class="recent-jobs-section py-3 my-5">
+  <section class="recent-jobs-section py-3 my-0">
     <div class="py-5 container">
       <!-- <p class="mb-0 fw-bold" style="font-size: 18px; color: #28B7B6;">
         JOBS

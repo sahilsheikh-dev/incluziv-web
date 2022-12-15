@@ -103,16 +103,19 @@
               <select
                 class="mt-2 mb-2 input-border-pink px-3 py-2 select-height-45 w-100 bg-light"
               >
-                <option value="1 Months" selected>1 months</option>
-                <option value="2 Months">2 Months</option>
-                <option value="4 Months">4 Months</option>
+                <option value="1 Months" selected>Serving Notice</option>
+                <option value="1 Months">15 Days</option>
+                <option value="2 Months">30 Days</option>
+                <option value="4 Months">45 Days</option>
+                <option value="2 Months">60 Days</option>
+                <option value="4 Months">90 Days</option>
               </select>
             </div>
 
             <div class="col-md-6 col-lg-6 col-xl-6 w-100">
               <span class="fw-bold">Last working day</span>
               <input
-                type="text"
+                type="date"
                 class="mt-2 text-center input-border-pink px-3 py-2 select-height-45 w-100 bg-light"
                 placeholder="eg. 3rd October"
                 required

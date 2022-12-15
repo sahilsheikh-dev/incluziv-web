@@ -6,18 +6,14 @@
       <hr color="red" size="1" />
       <div class="content">
         <form action="#">
-          <p class="fw-bold mb-0">Current Employment</p>
+          <p class="fw-bold mb-0">Working in current company since?</p>
           <div class="row my-0 py-0">
             <div class="col-md-6 col-lg-6 col-xl-6 w-100 my-0">
-              <select
-                class="mb-0 px-3 input-border-pink w-100 py-2 select-height-45 bg-light"
-              >
-                <option value="" class="" disabled selected>4+ Years</option>
-                <option value="2+ Years">2+ Years</option>
-                <option value="4+ Years">4+ Years</option>
-                <option value="6+ Years">6+ Years</option>
-                <option value="10+ Years">10+ Years</option>
-              </select>
+              <input
+                type="date"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+                required
+              />
             </div>
           </div>
 
@@ -81,12 +77,9 @@
                 <option value="" class="" disabled selected
                   >Select Course</option
                 >
-                <option value="Computer Science">Computer Science</option>
-                <option value="Information Technology"
-                  >Information Technology</option
-                >
-                <option value="Electrical">Electrical</option>
-                <option value="Electronics">Electronics</option>
+                <option value="Computer Science">MBA</option>
+                <option value="Information Technology">B.Tech.</option>
+                <option value="Electrical">BCA</option>
               </select>
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4 w-100">
@@ -122,7 +115,7 @@
           <div class="row">
             <div class="col-md-8 col-lg-8 col-xl-8 w-100 ">
               <select
-                class="mb-4 px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
               >
                 <option value="" class="" disabled selected
                   >College Name</option
@@ -145,7 +138,97 @@
               </select>
             </div>
           </div>
+          <div class="row mt-0">
+            <p class="mb-0 mt-0 fw-bold">
+              What is your Post Graduation background?
+            </p>
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
+              <select
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+              >
+                <option value="" class="" disabled selected
+                  >Select Course</option
+                >
+                <option value="Computer Science">MBA</option>
+                <option value="Information Technology">B.Tech.</option>
+                <option value="Electrical">BCA</option>
+              </select>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
+              <select
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+              >
+                <option value="" class="" disabled selected
+                  >Specialization</option
+                >
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology"
+                  >Information Technology</option
+                >
+                <option value="Electrical">Electrical</option>
+                <option value="Electronics">Electronics</option>
+              </select>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
+              <select
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+              >
+                <option value="" class="" disabled selected
+                  >Completion year</option
+                >
+                <option value="1 Year">2022</option>
+                <option value="2 Year">2021</option>
+                <option value="3 Year">2020</option>
+                <option value="4 Year">2019</option>
+              </select>
+            </div>
+          </div>
           <div class="row">
+            <p class="mb-0 mt-1 fw-bold">
+              What is your Graduation background?
+            </p>
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
+              <select
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+              >
+                <option value="" class="" disabled selected
+                  >Select Course</option
+                >
+                <option value="Computer Science">MBA</option>
+                <option value="Information Technology">B.Tech.</option>
+                <option value="Electrical">BCA</option>
+              </select>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
+              <select
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+              >
+                <option value="" class="" disabled selected
+                  >Specialization</option
+                >
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology"
+                  >Information Technology</option
+                >
+                <option value="Electrical">Electrical</option>
+                <option value="Electronics">Electronics</option>
+              </select>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 w-100">
+              <select
+                class="px-3 input-border-pink py-2 select-height-45 w-100 bg-light"
+              >
+                <option value="" class="" disabled selected
+                  >Completion year</option
+                >
+                <option value="1 Year">2022</option>
+                <option value="2 Year">2021</option>
+                <option value="3 Year">2020</option>
+                <option value="4 Year">2019</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mt-5">
             <div
               class="col-md-4 col-lg-4 col-xl-4 w-100 my-2 offset-md-2 offset-lg-2 offset-xl-2 fileUpload btn btn-warning border rounded-0 btn-sm btn-hover-yellow"
             >

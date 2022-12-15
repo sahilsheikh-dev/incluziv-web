@@ -29,7 +29,9 @@
             </div>
           </div>
         </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x">
+        <div
+          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+        >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Post Job
           </h2>
@@ -83,35 +85,27 @@
                   ></i>
                 </h5>
                 <div class="col-md-6 col-lg-6 col-xl-6 text-start">
-                  <select
-                    class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                  >
-                    <option class="text-start" disabled selected
-                      >Select Min</option
-                    >
-                    <option value="1">2</option>
-                    <option value="2">4</option>
-                    <option value="3">8</option>
-                    <option value="4">10</option>
-                  </select>
+                  <input
+                    type="number"
+                    class="form-control x"
+                    style="border-radius: 0;"
+                    placeholder="Min Experience"
+                    required
+                  />
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 text-start">
-                  <select
-                    class="x input-border-pink p-2 px-3 select-height-45 w-100"
-                  >
-                    <option class="text-start" disabled selected
-                      >Select Max</option
-                    >
-                    <option value="1">2</option>
-                    <option value="2">4</option>
-                    <option value="3">8</option>
-                    <option value="4">10</option>
-                  </select>
+                  <input
+                    type="number"
+                    class="form-control x"
+                    style="border-radius: 0;"
+                    placeholder="Max Experience"
+                    required
+                  />
                 </div>
               </div>
               <div>
                 <h5 class="fw-bold mt-4">
-                  Location
+                  Job Description
                   <i
                     class="bi bi-asterisk"
                     style="font-size: 10px; vertical-align: top; color: rgb(237, 62, 97);"

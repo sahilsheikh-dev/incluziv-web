@@ -159,12 +159,12 @@
             class="text-md-start text-lg-start text-xl-start fw-bold"
             style="color: rgb(237, 62, 97);"
           >
-            Showing jobs opportunities
+            Showing 146 jobs opportunities
           </p>
           <hr />
           <div class="jobs-list">
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -179,20 +179,22 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
-                  <p>1-2 years of experience | Gurgaon | Part Time</p>
+                  <p style="font-size: 12px;">
+                    1-2 years of experience | Gurgaon | Part Time
+                  </p>
                 </div>
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   Explore
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -207,20 +209,22 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
-                  <p>1-2 years of experience | Gurgaon | Part Time</p>
+                  <p style="font-size: 12px;">
+                    1-2 years of experience | Gurgaon | Part Time
+                  </p>
                 </div>
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   Explore
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -235,20 +239,22 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
-                  <p>1-2 years of experience | Gurgaon | Part Time</p>
+                  <p style="font-size: 12px;">
+                    1-2 years of experience | Gurgaon | Part Time
+                  </p>
                 </div>
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   Explore
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -263,20 +269,22 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
-                  <p>1-2 years of experience | Gurgaon | Part Time</p>
+                  <p style="font-size: 12px;">
+                    1-2 years of experience | Gurgaon | Part Time
+                  </p>
                 </div>
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   Explore
                 </button>
               </div>
             </div>
             <div
-              class="row my-2 bg-light shadow-lg px-2"
+              class="row my-4 bg-light shadow-lg px-2"
               style="border: 1px solid #000000; border-radius: 20px;"
             >
               <div class="col-3 d-flex align-items-center">
@@ -291,13 +299,15 @@
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
-                  <p>1-2 years of experience | Gurgaon | Part Time</p>
+                  <p style="font-size: 12px;">
+                    1-2 years of experience | Gurgaon | Part Time
+                  </p>
                 </div>
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
                 <button
                   class="btn btn-light text-dark px-3 shadow-sm fw-bold mx-auto"
-                  style="border: 1px solid #e4eaff; border-radius: 20px;"
+                  style="border: 1px solid #e4eaff; border-radius: 20px; font-size: 12px;"
                 >
                   Explore
                 </button>
