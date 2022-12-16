@@ -2,7 +2,7 @@
   <div class="hello">
     <Navbar />
     <Hero />
-    <!-- <SearchPreference /> -->
+    <SearchPreference />
     <RecentJobs />
     <FeaturedCompanies />
     <Testimonials />
@@ -16,7 +16,7 @@
 import Navbar from "./elements/Navbar.vue";
 import Footer from "./elements/Footer.vue";
 import Hero from "./elements/Hero.vue";
-// import SearchPreference from "./elements/SearchPreference.vue";
+import SearchPreference from "./elements/SearchPreference.vue";
 import RecentJobs from "./elements/RecentJobs.vue";
 import FeaturedCompanies from "./elements/FeaturedCompanies.vue";
 import Testimonials from "./elements/Testimonials.vue";
@@ -27,7 +27,7 @@ export default {
   components: {
     Navbar,
     Hero,
-    // SearchPreference,
+    SearchPreference,
     RecentJobs,
     FeaturedCompanies,
     Testimonials,

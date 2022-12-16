@@ -62,10 +62,14 @@
                     class="x input-border-pink p-2 px-3 select-height-45 w-100"
                   >
                     <option class="text-start" disabled selected>Select</option>
-                    <option value="1">2</option>
-                    <option value="2">4</option>
-                    <option value="3">8</option>
-                    <option value="4">10</option>
+                    <option value="1">Finance</option>
+                    <option value="1">Sales & Marketing</option>
+                    <option value="1">Consulting</option>
+                    <option value="1">HR</option>
+                    <option value="1">IT & Systems</option>
+                    <option value="1">Operations</option>
+                    <option value="1">Legal</option>
+                    <option value="1">BPO</option>
                   </select>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 mt-4 w-100">
@@ -74,10 +78,35 @@
                     class="x input-border-pink p-2 px-3 select-height-45 w-100"
                   >
                     <option class="text-start" disabled selected>Select</option>
-                    <option value="1">2</option>
-                    <option value="2">4</option>
-                    <option value="3">8</option>
-                    <option value="4">10</option>
+                    <option value="1">Accounting/Tazation/AUdit\Administration</option>
+                    <option value="1">Analytics & Business Intelligence</option>
+                    <option value="1">Banking/Financial Services</option>
+                    <option value="1">Content Writer/Editors</option>
+                    <option value="1">Corporate Planning/Consulting/Strategy</option>
+                    <option value="1">Design</option>
+                    <option value="1">Entrapreneur/Businessman</option>
+                    <option value="1">Executive Assistant/Personal Secretary</option>
+                    <option value="1">Export/Import/Merchandising</option>
+                    <option value="1">Hotels/Restaurant Management</option>
+                    <option value="1">HR/IR</option>
+                    <option value="1">Instruction Designer</option>
+                    <option value="1">Insurance</option>
+                    <option value="1">IT</option>
+                    <option value="1">ITeS/BPO</option>
+                    <option value="1">KPO/Research</option>
+                    <option value="1">Legal/Law/Company Secreatry</option>
+                    <option value="1">Marketing/Advertising/Public Relations</option>
+                    <option value="1">Media/Entertainment</option>
+                    <option value="1">Pharma/Biotech/Healthcare/Mediacl/R&D</option>
+                    <option value="1">Production/Maintenance/Quality Assurance</option>
+                    <option value="1">Purchase/Supply Chain/Logistics</option>
+                    <option value="1">Research & Development</option>
+                    <option value="1">Sales/Business Development/Client Servicing</option>
+                    <option value="1">Top Management</option>
+                    <option value="1">Traning & Development</option>
+                    <option value="1">Travel/Hospitality</option>
+                    <option value="1">Visual Merchandising</option>
+                    <option value="1">Other</option>
                   </select>
                 </div>
               </div>
@@ -106,7 +135,7 @@
                     style="font-size: 14px; font-weight: 600;"
                     class="text-uppercase mt-2"
                   >
-                    Queen
+                    LGBTQIA+
                   </p>
                 </div>
                 <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -118,7 +147,7 @@
                     style="font-size: 14px; font-weight: 600;"
                     class="text-uppercase mt-2"
                   >
-                    Able
+                    differently Abled
                   </p>
                 </div>
                 <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -142,7 +171,7 @@
                     style="font-size: 14px; font-weight: 600;"
                     class="text-uppercase mt-2"
                   >
-                    Silvergen
+                    retirees
                   </p>
                 </div>
               </div>

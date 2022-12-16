@@ -164,18 +164,20 @@
           <hr />
           <div class="jobs-list">
             <div
-              class="row my-4 bg-light shadow-lg px-2"
-              style="border: 1px solid #000000; border-radius: 20px;"
+              class="row my-4 bg-light shadow-lg p-2"
+              style="border: 1px solid #000000; border-radius: 30px;"
             >
-              <div class="col-3 d-flex align-items-center">
+              <div
+                class="col-2 d-flex align-items-center border border-start-0 border-top-0 border-bottom-0"
+              >
                 <img
-                  class="img-fluid w-75"
+                  class="img-fluid w-100"
                   src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
               <div
-                class="col-9 col-md-7 col-lg-7 col-x-7 d-flex align-items-center"
+                class="col-10 col-md-8 col-lg-8 col-x-8 d-flex align-items-center"
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
@@ -194,18 +196,20 @@
               </div>
             </div>
             <div
-              class="row my-4 bg-light shadow-lg px-2"
-              style="border: 1px solid #000000; border-radius: 20px;"
+              class="row my-4 bg-light shadow-lg p-2"
+              style="border: 1px solid #000000; border-radius: 30px;"
             >
-              <div class="col-3 d-flex align-items-center">
+              <div
+                class="col-2 d-flex align-items-center border border-start-0 border-top-0 border-bottom-0"
+              >
                 <img
-                  class="img-fluid w-75"
+                  class="img-fluid w-100"
                   src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
               <div
-                class="col-9 col-md-7 col-lg-7 col-x-7 d-flex align-items-center"
+                class="col-10 col-md-8 col-lg-8 col-x-8 d-flex align-items-center"
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
@@ -224,18 +228,20 @@
               </div>
             </div>
             <div
-              class="row my-4 bg-light shadow-lg px-2"
-              style="border: 1px solid #000000; border-radius: 20px;"
+              class="row my-4 bg-light shadow-lg p-2"
+              style="border: 1px solid #000000; border-radius: 30px;"
             >
-              <div class="col-3 d-flex align-items-center">
+              <div
+                class="col-2 d-flex align-items-center border border-start-0 border-top-0 border-bottom-0"
+              >
                 <img
-                  class="img-fluid w-75"
+                  class="img-fluid w-100"
                   src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
               <div
-                class="col-9 col-md-7 col-lg-7 col-x-7 d-flex align-items-center"
+                class="col-10 col-md-8 col-lg-8 col-x-8 d-flex align-items-center"
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
@@ -254,18 +260,20 @@
               </div>
             </div>
             <div
-              class="row my-4 bg-light shadow-lg px-2"
-              style="border: 1px solid #000000; border-radius: 20px;"
+              class="row my-4 bg-light shadow-lg p-2"
+              style="border: 1px solid #000000; border-radius: 30px;"
             >
-              <div class="col-3 d-flex align-items-center">
+              <div
+                class="col-2 d-flex align-items-center border border-start-0 border-top-0 border-bottom-0"
+              >
                 <img
-                  class="img-fluid w-75"
+                  class="img-fluid w-100"
                   src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
               <div
-                class="col-9 col-md-7 col-lg-7 col-x-7 d-flex align-items-center"
+                class="col-10 col-md-8 col-lg-8 col-x-8 d-flex align-items-center"
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>
@@ -284,18 +292,20 @@
               </div>
             </div>
             <div
-              class="row my-4 bg-light shadow-lg px-2"
-              style="border: 1px solid #000000; border-radius: 20px;"
+              class="row my-4 bg-light shadow-lg p-2"
+              style="border: 1px solid #000000; border-radius: 30px;"
             >
-              <div class="col-3 d-flex align-items-center">
+              <div
+                class="col-2 d-flex align-items-center border border-start-0 border-top-0 border-bottom-0"
+              >
                 <img
-                  class="img-fluid w-75"
+                  class="img-fluid w-100"
                   src="../assets/img/tcs.png"
                   alt="logo"
                 />
               </div>
               <div
-                class="col-9 col-md-7 col-lg-7 col-x-7 d-flex align-items-center"
+                class="col-10 col-md-8 col-lg-8 col-x-8 d-flex align-items-center"
               >
                 <div class="text-start">
                   <h5 class="fw-bold">Senior Backend Developer</h5>

@@ -116,7 +116,7 @@
                             style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
-                            Queen
+                            LGBTQIA+
                           </p>
                         </div>
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -128,7 +128,7 @@
                             style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
-                            Able
+                            differently Abled
                           </p>
                         </div>
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -152,7 +152,7 @@
                             style="font-size: 10px; font-weight: 600;"
                             class="text-uppercase mt-2"
                           >
-                            Silvergen
+                            retirees
                           </p>
                         </div>
                       </div>

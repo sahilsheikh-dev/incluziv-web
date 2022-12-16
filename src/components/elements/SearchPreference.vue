@@ -1,10 +1,10 @@
 <template>
   <section class="search-preference-section py-3 my-5">
     <div class="py-5">
-      <p class="mb-0 fw-bold" style="font-size: 18px; color: #28B7B6;">
+      <p class="mt-0 mb-5 fw-bold" style="font-size: 18px; color: #28B7B6;">
         JOB SEARCH
       </p>
-      <h1 class="text-dark fw-bold mt-0 mb-5">Search By Preference</h1>
+      <!-- <h1 class="text-dark fw-bold mt-0 mb-5">Search By Preference</h1> -->
       <div class="d-none d-md-block d-lg-block d-xl-block">
         <div
           class="form-control px-5 input-box mb-3 mx-auto row"
@@ -93,7 +93,7 @@
             src="../../assets/img/diversity-1.png"
             alt="logo"
           />
-          <p class="my-2 text-primary" style="font-size: 14px;">FEMALE</p>
+          <p class="my-2 text-primary" style="font-size: 14px; text-transform: uppercase;">FEMALE</p>
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
@@ -101,7 +101,7 @@
             src="../../assets/img/diversity-2.png"
             alt="logo"
           />
-          <p class="my-2 text-primary" style="font-size: 14px;">QUEER</p>
+          <p class="my-2 text-primary" style="font-size: 14px; text-transform: uppercase;">LGBTQIA+</p>
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
@@ -109,7 +109,7 @@
             src="../../assets/img/diversity-3.png"
             alt="logo"
           />
-          <p class="my-2 text-primary" style="font-size: 14px;">ABLE</p>
+          <p class="my-2 text-primary" style="font-size: 14px; text-transform: uppercase;">differently Abled</p>
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
@@ -117,7 +117,7 @@
             src="../../assets/img/diversity-4.png"
             alt="logo"
           />
-          <p class="my-2 text-primary" style="font-size: 14px;">VETERAN</p>
+          <p class="my-2 text-primary" style="font-size: 14px; text-transform: uppercase;">VETERAN</p>
         </div>
         <div class="col-4 col-md-2 col-lg-2 col-xl-2">
           <img
@@ -125,7 +125,7 @@
             src="../../assets/img/diversity-5.png"
             alt="logo"
           />
-          <p class="my-2 text-primary" style="font-size: 14px;">SILVERGEN</p>
+          <p class="my-2 text-primary" style="font-size: 14px; text-transform: uppercase;">retirees</p>
         </div>
       </div>
     </div>
