@@ -27,11 +27,12 @@
                         <div class="col-2">
                           <img
                             class="img-fluid contact-img"
+                            style="max-width: 70px; max-height: 70px;"
                             src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="logo"
                           />
                         </div>
-                        <div class="col-10">
+                        <div class="col-9 offset-1">
                           <p class="fw-bold text-pink py-2">John Deo</p>
                         </div>
                       </div>
@@ -39,11 +40,12 @@
                         <div class="col-2">
                           <img
                             class="img-fluid contact-img"
+                            style="max-width: 70px; max-height: 70px;"
                             src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="logo"
                           />
                         </div>
-                        <div class="col-10">
+                        <div class="col-9 offset-1">
                           <p class="fw-bold text-pink py-2">John Deo</p>
                         </div>
                       </div>
@@ -51,11 +53,12 @@
                         <div class="col-2">
                           <img
                             class="img-fluid contact-img"
+                            style="max-width: 70px; max-height: 70px;"
                             src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="logo"
                           />
                         </div>
-                        <div class="col-10">
+                        <div class="col-9 offset-1">
                           <p class="fw-bold text-pink py-2">John Deo</p>
                         </div>
                       </div>
@@ -67,7 +70,7 @@
           </div>
         </div>
         <div
-          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+          class="col-md-7 col-lg-7 col-xl-7 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
         >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Recruiter Dashboard
@@ -182,6 +185,7 @@
                 <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                   <img
                     class="img-fluid contact-img"
+                    style="max-width: 100px; max-height: 100px;"
                     src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="logo"
                   />
@@ -203,6 +207,7 @@
                 <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                   <img
                     class="img-fluid contact-img"
+                    style="max-width: 100px; max-height: 100px;"
                     src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="logo"
                   />
@@ -224,6 +229,7 @@
                 <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                   <img
                     class="img-fluid contact-img"
+                    style="max-width: 100px; max-height: 100px;"
                     src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="logo"
                   />

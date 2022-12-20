@@ -30,7 +30,7 @@
           </div>
         </div>
         <div
-          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+          class="col-md-7 col-lg-7 col-xl-7 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
         >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Post Job

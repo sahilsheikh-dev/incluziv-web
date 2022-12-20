@@ -17,6 +17,7 @@ import Targeting from "@/components/Targeting";
 import RecruiterDashboard from "@/components/RecruiterDashboard";
 import SearchCandidate from "@/components/SearchCandidate";
 import Settings from "@/components/Settings";
+import CandidateResult from "@/components/CandidateResult";
 
 Vue.use(Router);
 
@@ -106,6 +107,11 @@ export default new Router({
       path: "/settings",
       name: "Settings",
       component: Settings
+    },
+    {
+      path: "/candidateResult",
+      name: "CandidateResult",
+      component: CandidateResult
     }
   ]
 });

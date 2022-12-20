@@ -116,7 +116,7 @@
           </div>
         </div>
         <div
-          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+          class="col-md-7 col-lg-7 col-xl-7 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
         >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Search Candidate
@@ -955,7 +955,7 @@
                 <a
                   class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
                   style="background-color: rgb(237, 62, 97); border-radius: 0;"
-                  href="#/recruiterDashboard"
+                  href="#/candidateResult"
                   >Search Candidates</a
                 >
               </div>

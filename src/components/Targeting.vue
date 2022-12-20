@@ -30,7 +30,7 @@
           </div>
         </div>
         <div
-          class="col-md-6 col-lg-6 col-xl-6 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
+          class="col-md-7 col-lg-7 col-xl-7 mx-md-5 mx-lg-5 mx-xl-5 px-md-5 px-lg-5 px-xl-5 card-margin-x"
         >
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Targeting
@@ -78,14 +78,20 @@
                     class="x input-border-pink p-2 px-3 select-height-45 w-100"
                   >
                     <option class="text-start" disabled selected>Select</option>
-                    <option value="1">Accounting/Tazation/AUdit\Administration</option>
+                    <option value="1"
+                      >Accounting/Tazation/AUdit\Administration</option
+                    >
                     <option value="1">Analytics & Business Intelligence</option>
                     <option value="1">Banking/Financial Services</option>
                     <option value="1">Content Writer/Editors</option>
-                    <option value="1">Corporate Planning/Consulting/Strategy</option>
+                    <option value="1"
+                      >Corporate Planning/Consulting/Strategy</option
+                    >
                     <option value="1">Design</option>
                     <option value="1">Entrapreneur/Businessman</option>
-                    <option value="1">Executive Assistant/Personal Secretary</option>
+                    <option value="1"
+                      >Executive Assistant/Personal Secretary</option
+                    >
                     <option value="1">Export/Import/Merchandising</option>
                     <option value="1">Hotels/Restaurant Management</option>
                     <option value="1">HR/IR</option>
@@ -95,13 +101,21 @@
                     <option value="1">ITeS/BPO</option>
                     <option value="1">KPO/Research</option>
                     <option value="1">Legal/Law/Company Secreatry</option>
-                    <option value="1">Marketing/Advertising/Public Relations</option>
+                    <option value="1"
+                      >Marketing/Advertising/Public Relations</option
+                    >
                     <option value="1">Media/Entertainment</option>
-                    <option value="1">Pharma/Biotech/Healthcare/Mediacl/R&D</option>
-                    <option value="1">Production/Maintenance/Quality Assurance</option>
+                    <option value="1"
+                      >Pharma/Biotech/Healthcare/Mediacl/R&D</option
+                    >
+                    <option value="1"
+                      >Production/Maintenance/Quality Assurance</option
+                    >
                     <option value="1">Purchase/Supply Chain/Logistics</option>
                     <option value="1">Research & Development</option>
-                    <option value="1">Sales/Business Development/Client Servicing</option>
+                    <option value="1"
+                      >Sales/Business Development/Client Servicing</option
+                    >
                     <option value="1">Top Management</option>
                     <option value="1">Traning & Development</option>
                     <option value="1">Travel/Hospitality</option>

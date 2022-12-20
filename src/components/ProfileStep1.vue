@@ -76,7 +76,7 @@
                 style="font-size: 14px; font-weight: 600;"
                 class="text-uppercase mt-2"
               >
-                female
+                FEMALE
               </p>
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -88,7 +88,7 @@
                 style="font-size: 14px; font-weight: 600;"
                 class="text-uppercase mt-2"
               >
-                Queen
+                LGBTQIA+
               </p>
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -100,7 +100,7 @@
                 style="font-size: 14px; font-weight: 600;"
                 class="text-uppercase mt-2"
               >
-                Able
+                DIFFERENTLY ABLED
               </p>
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -112,7 +112,7 @@
                 style="font-size: 14px; font-weight: 600;"
                 class="text-uppercase mt-2"
               >
-                Veteran
+                VETERAN
               </p>
             </div>
             <div class="col-4 col-md-2 col-lg-2 col-xl-2">
@@ -124,7 +124,7 @@
                 style="font-size: 14px; font-weight: 600;"
                 class="text-uppercase mt-2"
               >
-                Silvergen
+                RETIREES
               </p>
             </div>
           </div>
