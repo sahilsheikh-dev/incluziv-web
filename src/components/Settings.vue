@@ -214,9 +214,9 @@
                     <div
                       class="col-md-3 col-lg-3 col-xl-3 input-group w-100 px-0 mt-0 py-0"
                     >
-                      <div class="form-check form-switch">
+                      <div class="form-check form-switch ui toggle checkbox">
                         <input
-                          class="form-check-input input-toggle"
+                          class="form-check-input input-toggle bg-danger"
                           name="recruiters-messages"
                           type="checkbox"
                           role="switch"
@@ -257,7 +257,7 @@
                     >
                       <div class="form-check form-switch">
                         <input
-                          class="form-check-input input-toggle"
+                          class="form-check-input input-toggle bg-danger"
                           name="recruiters-messages"
                           type="checkbox"
                           role="switch"
@@ -275,7 +275,7 @@
                     >
                       <div class="form-check form-switch">
                         <input
-                          class="form-check-input input-toggle"
+                          class="form-check-input input-toggle bg-danger"
                           name="recruiters-messages"
                           type="checkbox"
                           role="switch"
@@ -293,7 +293,7 @@
                     >
                       <div class="form-check form-switch">
                         <input
-                          class="form-check-input input-toggle"
+                          class="form-check-input input-toggle bg-danger"
                           name="recruiters-messages"
                           type="checkbox"
                           role="switch"
