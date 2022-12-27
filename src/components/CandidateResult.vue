@@ -3,7 +3,7 @@
     <Navbar />
     <div class="jobsearch-section">
       <div class="row my-3">
-        <div class="col-md-3 col-lg-3 col-xl-3">
+        <div class="col-md-3 col-lg-3 col-xl-3 ms-4">
           <div class="job-search-side-card mx-3">
             <div class="text-center">
               <v-expansion-panels :value="opened">
@@ -144,9 +144,7 @@
             </div>
           </div>
         </div>
-        <div
-          class="col-md-8 col-lg-8 col-xl-8 offset-md-1 offset-lg-1 offset-xl-1"
-        >
+        <div class="col-md-8 col-lg-8 col-xl-8 ms-5 ps-5">
           <h2 class="text-md-start text-lg-start text-xl-start fw-bold">
             Search Results
           </h2>
@@ -189,15 +187,15 @@
                 </p>
               </div>
             </div>
-            <div
-              class="row"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
+            <div class="row">
               <div class="col-auto d-flex align-items-center">
                 <input type="checkbox" id="select-all" class="my-0" />
               </div>
-              <div class="col-8">
+              <div
+                class="col-9"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 <div
                   class="row my-4 bg-light shadow-lg p-2"
                   style="border: 1px solid #000000; border-radius: 30px;"
@@ -240,7 +238,7 @@
                             </p>
                           </div>
                         </div>
-                        <div class="col-5 d-flex align-items-center">
+                        <div class="col-5 d-flex">
                           <div class="text-start">
                             <p class="text-secondary">
                               <i
@@ -280,7 +278,7 @@
                             </p>
                           </div>
                         </div>
-                        <div class="col-5 d-flex align-items-center">
+                        <div class="col-5 d-flex">
                           <div class="text-start">
                             <p class="text-secondary">
                               <i
@@ -378,15 +376,15 @@
                 </div>
               </div>
             </div>
-            <div
-              class="row"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
+            <div class="row">
               <div class="col-auto d-flex align-items-center">
                 <input type="checkbox" id="select-all" class="my-0" />
               </div>
-              <div class="col-8">
+              <div
+                class="col-9"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 <div
                   class="row my-4 bg-light shadow-lg p-2"
                   style="border: 1px solid #000000; border-radius: 30px;"
@@ -429,7 +427,7 @@
                             </p>
                           </div>
                         </div>
-                        <div class="col-5 d-flex align-items-center">
+                        <div class="col-5 d-flex">
                           <div class="text-start">
                             <p class="text-secondary">
                               <i
@@ -469,7 +467,7 @@
                             </p>
                           </div>
                         </div>
-                        <div class="col-5 d-flex align-items-center">
+                        <div class="col-5 d-flex">
                           <div class="text-start">
                             <p class="text-secondary">
                               <i

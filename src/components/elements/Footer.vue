@@ -1,78 +1,93 @@
 <template>
-  <div class="text-light p-4" style="background-color: #2c2c2c;">
+  <div class="text-dark bg-light p-4">
     <div class="row mx-auto" style="max-width: 500px;">
       <div class="col-md-4 col-lg-4 col-xl-4">
         <h3>Follow us</h3>
       </div>
       <div class="col-md-8 col-lg-8 col-xl-8">
         <div class="row">
-          <div class="col-auto">
+          <div
+            class="col-auto rounded-circle d-flex align-items-center text-center mx-2"
+            style="border: 1px solid #1976D2; max-width: 50px; max-height: 50px;"
+          >
             <a
               href="https://facebook.com"
               class="text-decoration-none"
               target="_blank"
             >
               <img
-                class="img-thumbnail bg-transparent mx-1 border-0"
+                class="img-thumbnail bg-transparent border-0"
                 src="../../assets/img/facebook.png"
                 alt="logo"
-                style="max-width: 30px;"
+                style="max-width: 30px; max-height: 30px; margin-left: -2px;"
               />
             </a>
           </div>
-          <div class="col-auto">
+          <div
+            class="col-auto rounded-circle d-flex align-items-center text-center mx-2"
+            style="border: 1px solid #1976D2; max-width: 50px; max-height: 50px;"
+          >
             <a
               href="https://twitter.com"
               class="text-decoration-none"
               target="_blank"
             >
               <img
-                class="img-thumbnail bg-transparent mx-1 border-0"
+                class="img-thumbnail bg-transparent border-0"
                 src="../../assets/img/twitter.png"
                 alt="logo"
-                style="max-width: 30px;"
+                style="max-width: 30px; max-height: 30px; margin-left: -2px;"
               />
             </a>
           </div>
-          <div class="col-auto">
+          <div
+            class="col-auto rounded-circle d-flex align-items-center text-center mx-2"
+            style="border: 1px solid #1976D2; max-width: 50px; max-height: 50px;"
+          >
             <a
               href="https://linkedin.com"
               class="text-decoration-none"
               target="_blank"
             >
               <img
-                class="img-thumbnail bg-transparent mx-1 border-0"
+                class="img-thumbnail bg-transparent border-0"
                 src="../../assets/img/linkedin.png"
                 alt="logo"
-                style="max-width: 30px;"
+                style="max-width: 30px; max-height: 30px; margin-left: -2px;"
               />
             </a>
           </div>
-          <div class="col-auto">
+          <div
+            class="col-auto rounded-circle d-flex align-items-center text-center mx-2"
+            style="border: 1px solid #1976D2; max-width: 50px; max-height: 50px;"
+          >
             <a
               href="https://instagram.com"
               class="text-decoration-none"
               target="_blank"
             >
               <img
-                class="img-thumbnail bg-transparent mx-1 border-0"
+                class="img-thumbnail bg-transparent border-0"
                 src="../../assets/img/instagram.png"
                 alt="logo"
-                style="max-width: 30px;"
+                style="max-width: 30px; max-height: 30px; margin-left: -2px;"
               />
             </a>
           </div>
-          <div class="col-auto">
+          <div
+            class="col-auto rounded-circle d-flex align-items-center text-center mx-2"
+            style="border: 1px solid #1976D2; max-width: 50px; max-height: 50px;"
+          >
             <a
               href="https://youtube.com"
               class="text-decoration-none"
               target="_blank"
             >
               <img
-                class="img-thumbnail bg-transparent mx-1 border-0"
+                class="img-thumbnail bg-transparent border-0"
                 src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
                 alt="logo"
-                style="max-width: 30px;"
+                style="max-width: 30px; max-height: 30px; margin-left: -2px;"
               />
             </a>
           </div>
