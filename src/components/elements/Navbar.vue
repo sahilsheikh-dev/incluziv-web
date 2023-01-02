@@ -199,6 +199,34 @@
   </nav>
 </template>
 
+<script>
+export default {
+  mounted() {
+    const currentUrl = window.location.href;
+    const pageName = currentUrl.substring(currentUrl.lastIndexOf("/") + 1);
+    if (
+      pageName === "" ||
+      pageName === null ||
+      pageName === undefined ||
+      pageName === "candidateSignup" ||
+      pageName === "candidateSignin" ||
+      pageName === "recruiterSignup"
+    ) {
+      console.log("homepage");
+    } else {
+      const currentToken = sessionStorage.getItem("userToken");
+      if (
+        currentToken === "" ||
+        currentToken === null ||
+        currentToken === undefined
+      ) {
+        window.location.replace("/#/candidateSignup");
+      }
+    }
+  }
+};
+</script>
+
 <style>
 @import "../../assets/css/main.css";
 </style>

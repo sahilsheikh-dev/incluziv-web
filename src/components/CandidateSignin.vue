@@ -25,20 +25,21 @@
             id="password"
             placeholder="Password"
           />
-          <!-- <button
-              type="submit"
-              class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
-              id="loginsubmit"
-            >
-              Agree & Continue
-            </button> -->
-          <a
+          <button
+            type="submit"
+            class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
+            id="loginsubmit"
+            v-on:click="loginFunction()"
+          >
+            Agree & Continue
+          </button>
+          <!-- <a
             class="form-control p-2 px-5 pt-md-3 pt-lg-3 pt-xl-3 input-box mb-3 text-light bg-primary submit-btn text-uppercase text-decoration-none btn-hover-blue"
             id="loginsubmit"
             href="#/profilestep1"
           >
             Agree & Continue
-          </a>
+          </a> -->
         </form>
         <h6 class="my-4 fw-bold">OR</h6>
         <div class="row mx-auto" style="max-width: 700px;">
@@ -77,6 +78,11 @@ export default {
     return {
       msg: "This is Login Page"
     };
+  },
+  methods: {
+    loginFunction: function() {
+      console.log("test");
+    }
   }
 };
 </script>
