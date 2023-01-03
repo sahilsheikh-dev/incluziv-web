@@ -107,6 +107,7 @@ export default {
           );
           console.log("response");
           console.log(response.data);
+          sessionStorage.setItem("userToken", response.data.token);
           window.location.href("/#/profile");
         } catch (error) {
           console.log("error");

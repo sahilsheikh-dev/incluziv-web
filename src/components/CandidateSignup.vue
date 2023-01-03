@@ -96,7 +96,7 @@ export default {
     };
   },
   methods: {
-    signupFunction: function() {
+    async signupFunction() {
       const username = document.getElementById("username");
       const password = document.getElementById("password");
       if (
@@ -111,7 +111,23 @@ export default {
       } else {
         console.log(username.value);
         console.log(password.value);
-        window.location.href("/#/profile");
+        try {
+          const response = await axios.post(
+            "http://20.225.242.79:8080/incluziv-0.0.1/auth/register",
+            {
+              email: username.value,
+              password: password.value
+            }
+          );
+          console.log("response");
+          console.log(response.data);
+          sessionStorage.setItem("registered", username.value);
+          window.location.href("/#/profilestep1");
+        } catch (error) {
+          console.log("error");
+          console.error(error);
+          alert(error);
+        }
       }
     }
   }

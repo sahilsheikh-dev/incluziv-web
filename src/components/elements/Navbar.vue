@@ -216,6 +216,9 @@ export default {
     } else {
       const currentToken = sessionStorage.getItem("userToken");
       if (
+        sessionStorage.getItem("registered") === "" ||
+        sessionStorage.getItem("registered") === null ||
+        sessionStorage.getItem("registered") === undefined ||
         currentToken === "" ||
         currentToken === null ||
         currentToken === undefined
