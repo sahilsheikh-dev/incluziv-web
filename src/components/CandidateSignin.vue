@@ -72,6 +72,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "Login",
   data() {
@@ -80,8 +82,38 @@ export default {
     };
   },
   methods: {
-    loginFunction: function() {
-      console.log("test");
+    async loginFunction() {
+      const username = document.getElementById("username");
+      const password = document.getElementById("password");
+      if (
+        username === "" ||
+        username === null ||
+        username === undefined ||
+        password === "" ||
+        password === null ||
+        password === undefined
+      ) {
+        alert("Please fill input fields");
+      } else {
+        console.log(username.value);
+        console.log(password.value);
+        try {
+          const response = await axios.post(
+            "http://20.225.242.79:8080/incluziv-0.0.1/auth/login",
+            {
+              email: username.value,
+              password: password.value
+            }
+          );
+          console.log("response");
+          console.log(response.data);
+          window.location.href("/#/profile");
+        } catch (error) {
+          console.log("error");
+          console.error(error);
+          alert(error);
+        }
+      }
     }
   }
 };

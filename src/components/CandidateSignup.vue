@@ -97,7 +97,22 @@ export default {
   },
   methods: {
     signupFunction: function() {
-      console.log("test");
+      const username = document.getElementById("username");
+      const password = document.getElementById("password");
+      if (
+        username === "" ||
+        username === null ||
+        username === undefined ||
+        password === "" ||
+        password === null ||
+        password === undefined
+      ) {
+        alert("Please fill input fields");
+      } else {
+        console.log(username.value);
+        console.log(password.value);
+        window.location.href("/#/profile");
+      }
     }
   }
 };
