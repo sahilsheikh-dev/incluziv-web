@@ -152,19 +152,66 @@
           </div>
 
           <div class="button">
-            <!-- <input type="submit" value="Next" /> -->
-            <a
+            <button
               class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
-              href="#/profilestep2"
-              >Next</a
+              href="/"
+              v-on:click="saveInfo()"
             >
+              Next
+            </button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Login",
+  data() {
+    return {
+      msg: "This is Login Page"
+    };
+  },
+  methods: {
+    async saveInfo() {
+      const image = document.getElementById("image");
+      const dob = document.getElementById("dob");
+      const mobileNumber = document.getElementById("mobileNumber");
+      const gender = document.getElementById("gender");
+      const diversity = document.getElementById("diversity");
+      if (
+        image === "" ||
+        image === null ||
+        image === undefined ||
+        dob === "" ||
+        dob === null ||
+        dob === undefined ||
+        mobileNumber === "" ||
+        mobileNumber === null ||
+        mobileNumber === undefined ||
+        gender === "" ||
+        gender === null ||
+        gender === undefined ||
+        diversity === "" ||
+        diversity === null ||
+        diversity === undefined
+      ) {
+        alert("Please fill input fields");
+      } else {
+        localStorage.setItem("image", image);
+        localStorage.setItem("dob", dob);
+        localStorage.setItem("mobileNumber", mobileNumber);
+        localStorage.setItem("gender", gender);
+        localStorage.setItem("diversity", diversity);
+        window.location.href("/#/profileStep2");
+      }
+    }
+  }
+};
+</script>
 
 <style>
 @import "../assets/css/main.css";

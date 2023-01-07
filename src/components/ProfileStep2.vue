@@ -125,19 +125,61 @@
           </div>
 
           <div class="button">
-            <!-- <input type="submit" value="Next" /> -->
-            <a
+            <button
               class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
-              href="#/profilestep3"
-              >Next</a
+              href="/"
+              v-on:click="saveInfo()"
             >
+              Next
+            </button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Login",
+  data() {
+    return {
+      msg: "This is Login Page"
+    };
+  },
+  methods: {
+    async saveInfo() {
+      const experienceType = document.getElementById("experienceType");
+      const yearsOfExperience = document.getElementById("yearsOfExperience");
+      const yearsOfBreak = document.getElementById("yearsOfBreak");
+      const skills = document.getElementById("skills");
+      if (
+        experienceType === "" ||
+        experienceType === null ||
+        experienceType === undefined ||
+        yearsOfExperience === "" ||
+        yearsOfExperience === null ||
+        yearsOfExperience === undefined ||
+        yearsOfBreak === "" ||
+        yearsOfBreak === null ||
+        yearsOfBreak === undefined ||
+        skills === "" ||
+        skills === null ||
+        skills === undefined
+      ) {
+        alert("Please fill input fields");
+      } else {
+        localStorage.setItem("experienceType", experienceType);
+        localStorage.setItem("yearsOfExperience", yearsOfExperience);
+        localStorage.setItem("yearsOfBreak", yearsOfBreak);
+        localStorage.setItem("skills", skills);
+        window.location.href("/#/profileStep3");
+      }
+    }
+  }
+};
+</script>
 
 <style>
 @import "../assets/css/main.css";

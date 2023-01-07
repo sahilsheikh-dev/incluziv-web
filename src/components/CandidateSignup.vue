@@ -122,8 +122,8 @@ export default {
             }
           );
           console.log("response");
-          console.log(response.data);
-          sessionStorage.setItem("registered", username.value);
+          console.log(response);
+          localStorage.setItem("registered", username.value);
           window.location.href("/#/profilestep1");
         } catch (error) {
           console.log("error");

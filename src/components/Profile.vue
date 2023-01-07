@@ -779,6 +779,9 @@ import Navbar from "./elements/Navbar.vue";
 import Footer from "./elements/Footer.vue";
 
 export default {
+  created() {
+    saveInfo();
+  },
   components: {
     Navbar,
     Footer
@@ -788,6 +791,21 @@ export default {
     return {
       msg: "Welcome to Profile"
     };
+  },
+  methods: {
+    async saveInfo() {
+      try {
+        const response = await axios.get(
+          "http://20.225.242.79:8080/incluziv-0.0.1/candidates"
+        );
+        console.log("response");
+        console.log(response);
+      } catch (error) {
+        console.log("error");
+        console.error(error);
+        alert(error);
+      }
+    }
   }
 };
 </script>

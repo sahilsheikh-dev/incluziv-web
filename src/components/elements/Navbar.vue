@@ -202,6 +202,7 @@
 <script>
 export default {
   mounted() {
+    console.log(this.msg);
     const currentUrl = window.location.href;
     const pageName = currentUrl.substring(currentUrl.lastIndexOf("/") + 1);
     if (
@@ -214,11 +215,11 @@ export default {
     ) {
       console.log("homepage");
     } else {
-      const currentToken = sessionStorage.getItem("userToken");
+      const currentToken = localStorage.getItem("token");
       if (
-        sessionStorage.getItem("registered") === "" ||
-        sessionStorage.getItem("registered") === null ||
-        sessionStorage.getItem("registered") === undefined ||
+        localStorage.getItem("registered") === "" ||
+        localStorage.getItem("registered") === null ||
+        localStorage.getItem("registered") === undefined ||
         currentToken === "" ||
         currentToken === null ||
         currentToken === undefined

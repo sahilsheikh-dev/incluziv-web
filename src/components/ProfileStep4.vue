@@ -252,18 +252,85 @@
 
           <div class="button">
             <!-- <input type="submit" value="Next" /> -->
-            <a
+            <button
               class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
-              href="#/profile"
-              >Next</a
+              href="/"
+              v-on:click="saveInfo()"
             >
+              Next
+            </button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Login",
+  data() {
+    return {
+      msg: "This is Login Page"
+    };
+  },
+  methods: {
+    async saveInfo() {
+      const currentJob = document.getElementById("currentJob");
+      if (
+        currentJob === "" ||
+        currentJob === null ||
+        currentJob === undefined
+      ) {
+        alert("Please fill input fields");
+      } else {
+        const image = localStorage.getItem("image");
+        const dob = localStorage.getItem("dob");
+        const mobileNumber = localStorage.getItem("mobileNumber");
+        const gender = localStorage.getItem("gender");
+        const diversity = localStorage.getItem("diversity");
+        const experienceType = localStorage.getItem("experienceType");
+        const yearsOfExperience = localStorage.getItem("yearsOfExperience");
+        const yearsOfBreak = localStorage.getItem("yearsOfBreak");
+        const skills = localStorage.getItem("skills");
+        const currentLocation = localStorage.getItem("currentLocation");
+        const preferredLocations = localStorage.getItem("preferredLocations");
+
+        try {
+          const response = await axios.post(
+            "http://20.225.242.79:8080/incluziv-0.0.1/candidates",
+            {
+              gender: gender,
+              dob: dob,
+              community: diversity,
+              employmentStatus: null,
+              yearsOfExperience: yearsOfExperience,
+              mobileNumber: mobileNumber,
+              currentLocation: {
+                id: currentLocation
+              },
+              preferredLocations: [
+                {
+                  id: preferredLocations
+                }
+              ]
+            }
+          );
+          console.log("response");
+          console.log(response);
+          localStorage.setItem("registered", username.value);
+          window.location.href("/#/profile");
+        } catch (error) {
+          console.log("error");
+          console.error(error);
+          alert(error);
+        }
+      }
+    }
+  }
+};
+</script>
 
 <style>
 @import "../assets/css/main.css";

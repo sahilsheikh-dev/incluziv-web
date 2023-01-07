@@ -106,8 +106,11 @@ export default {
             }
           );
           console.log("response");
-          console.log(response.data);
-          sessionStorage.setItem("userToken", response.data.token);
+          console.log(response);
+          const token = response.token;
+          console.log("token::" + token);
+          axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
+          localStorage.setItem("token", token);
           window.location.href("/#/profile");
         } catch (error) {
           console.log("error");

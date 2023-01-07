@@ -123,18 +123,51 @@
             </div>
           </div>
           <div class="button">
-            <a
+            <button
               class="btn text-decoration-none text-light p-2 px-5 btn-hover-pink"
               style="background-color: rgb(237, 62, 97); border-radius: 0;"
-              href="#/profilestep4"
-              >Next</a
+              href="/"
+              v-on:click="saveInfo()"
             >
+              Next
+            </button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Login",
+  data() {
+    return {
+      msg: "This is Login Page"
+    };
+  },
+  methods: {
+    async saveInfo() {
+      const currentLocation = document.getElementById("currentLocation");
+      const preferredLocations = document.getElementById("preferredLocations");
+      if (
+        currentLocation === "" ||
+        currentLocation === null ||
+        currentLocation === undefined ||
+        preferredLocations === "" ||
+        preferredLocations === null ||
+        preferredLocations === undefined
+      ) {
+        alert("Please fill input fields");
+      } else {
+        localStorage.setItem("currentLocation", currentLocation);
+        localStorage.setItem("preferredLocations", preferredLocations);
+        window.location.href("/#/profileStep4");
+      }
+    }
+  }
+};
+</script>
 
 <style>
 @import "../assets/css/main.css";
