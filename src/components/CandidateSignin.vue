@@ -82,7 +82,7 @@ export default {
     };
   },
   methods: {
-    async loginFunction() {
+    async loginFunction() { debugger
       const username = document.getElementById("username");
       const password = document.getElementById("password");
       if (
@@ -99,16 +99,14 @@ export default {
         console.log(password.value);
         try {
           const response = await axios.post(
-            "http://20.225.242.79:8080/incluziv-0.0.1/auth/login",
+            "http://20.225.242.79:8080/incluziv-0.0.1/auth/candidate/login",
             {
               email: username.value,
               password: password.value
             }
           );
-          console.log("response");
           console.log(response);
-          const token = response.token;
-          console.log("token::" + token);
+          const token = response.data.token
           axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
           localStorage.setItem("token", token);
           window.location.href("/#/profile");

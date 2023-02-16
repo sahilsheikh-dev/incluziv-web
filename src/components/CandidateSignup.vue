@@ -98,9 +98,15 @@ export default {
     };
   },
   methods: {
-    async signupFunction() {
+    async signupFunction() { debugger
       const username = document.getElementById("username");
       const password = document.getElementById("password");
+      let name = document.getElementById("fullname");
+      let data = {
+              email: username.value,
+              password: password.value,
+              name: name.value
+            }
       if (
         username === "" ||
         username === null ||
@@ -115,10 +121,13 @@ export default {
         console.log(password.value);
         try {
           const response = await axios.post(
-            "http://20.225.242.79:8080/incluziv-0.0.1/auth/register",
+            "http://20.225.242.79:8080/incluziv-0.0.1/auth/candidate/register",
+            data,
             {
-              email: username.value,
-              password: password.value
+              headers: {
+              'Accept': '*/*',
+              'Content-Type': 'application/json'
+              }
             }
           );
           console.log("response");
